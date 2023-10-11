@@ -1,9 +1,9 @@
 # bindings
-Melange bindings repository for popular JavaScript libraries
+Melange binding repository for popular JavaScript libraries
 
-- **Learn**: if it's the first time you bind, having a bunch of examples in one place, helps. If it's the 99th time you do, having a cheatsheet is also good.
-- **Use them by owning them**: The usage of this repository is to copy/paster into you project. This way you own the bindings and you can change them if you need.
-- **To collaborate and unify efforts**: most bindings become outdated, abandoned or unmaintained. Having a central place to collaborate and unify efforts is a good way to avoid this, and when newer versions of Melange get released we can update all the bindings at once.
+- **Learn**: if it's the first time you bind, having a bunch of examples in one place, helps. If it's the 99th time you do, having a cheatsheet can also speedup and be helpful.
+- **Owning your bindings**: The use of this repository is by copy/pasting what you need into you project. That way, you own the bindings. You can iterate over them, fix issues, write abtrasctions on top, test them.
+- **Collaborate and unify efforts**: most bindings become outdated, abandoned or unmaintained. Having a central place to collaborate and unify efforts is a good way to fix this, and when newer versions of Melange get released we can update all the bindings at once.
 
 ## What are bindings
 Bindings in Melange is the method to communicate with JavaScript and have some garanties on the type-checker. In other languages this is called FFI (Foreign Function Interface).
