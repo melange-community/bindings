@@ -1,0 +1,45 @@
+{
+  "name": "rescript-react-helmet",
+  "version": "4.0.0",
+  "description": "ReScript bindings for React Helmet, a document head manager for React",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/MoOx/rescript-react-helmet",
+  "repository": "https://github.com/MoOx/rescript-react-helmet",
+  "files": [
+    "src/*.res",
+    "bsconfig.json"
+  ],
+  "keywords": [
+    "rescript",
+    "react",
+    "react-dom",
+    "head",
+    "html",
+    "html-head",
+    "react-helmet"
+  ],
+  "peerDependencies": {
+    "@rescript/react": "^0.10.3",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-helmet": "^6.0.0"
+  },
+  "devDependencies": {
+    "@rescript/react": "^0.10.3",
+    "npmpub": "^5.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-helmet": "^6.0.0",
+    "rescript": "^9.1.4"
+  },
+  "scripts": {
+    "build": "rescript",
+    "start": "rescript build -w",
+    "clean": "rescript clean -with-deps",
+    "test": "yarn clean && yarn build",
+    "release": "npmpub"
+  }
+}

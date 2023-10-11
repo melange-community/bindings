@@ -1,0 +1,33 @@
+{
+  "name": "bs-winston",
+  "version": "0.7.2",
+  "description": "Winston for ReasonML",
+  "author": "Kundi team - Veikkaus",
+  "license": "MIT",
+  "repository": "github:veikkaus/bs-winston",
+  "keywords": [
+    "BuckleScript",
+    "ReasonML",
+    "Reason",
+    "Winston",
+    "nodejs"
+  ],
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "npm run clean && npm run build && mocha ./lib/js/test"
+  },
+  "dependencies": {
+    "winston": "3.3.3"
+  },
+  "peerDependencies": {
+    "bs-platform": ">= 8.0.0"
+  },
+  "devDependencies": {
+    "bs-mocha": "1.0.0",
+    "bs-platform": "9.0.2",
+    "reason-future": "2.6.0",
+    "winston-transport": "4.4.0"
+  }
+}

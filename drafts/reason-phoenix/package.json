@@ -1,0 +1,24 @@
+{
+  "name": "reason-phoenix",
+  "version": "0.1.8",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^8.2.0"
+  },
+  "dependencies": {
+    "phoenix": "^1.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/celsobonutti/reason-phoenix.git"
+  }
+}

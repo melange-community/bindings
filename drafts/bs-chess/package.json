@@ -1,0 +1,27 @@
+{
+  "name": "bs-chess.js",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "webpack": "webpack",
+    "webpack-w": "webpack -w"
+  },
+  "keywords": [
+    "BuckleScript",
+    "chess.js",
+    "chess"
+  ],
+  "author": "russelldmatt",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^3.0.0",
+    "webpack-cli": "^2.0.12"
+  },
+  "dependencies": {
+    "bs-json": "^1.0.1",
+    "chess.js": "^0.10.2",
+    "webpack": "^4.2.0"
+  }
+}

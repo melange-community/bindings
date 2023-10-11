@@ -1,0 +1,46 @@
+{
+  "name": "@softwarefactory-project/re-patternfly",
+  "version": "3.0.3",
+  "description": "ReScript binding for Patternfly",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "jest --verbose"
+  },
+  "keywords": [
+    "patternfly",
+    "react",
+    "rescript-react",
+    "rescript",
+    "recript-bindings"
+  ],
+  "author": "softwarefactory-dev@redhat.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/softwarefactory-project/re-patternfly/issues"
+  },
+  "homepage": "https://github.com/softwarefactory-project/re-patternfly#readme",
+  "files": [
+    "src/*.re",
+    "bsconfig.json",
+    "README.md"
+  ],
+  "dependencies": {
+    "@rescript/react": "^0.10.1"
+  },
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.5.1",
+    "@patternfly/react-core": "^4.115.2",
+    "bs-platform": "^8.4.0",
+    "jest": "^26.5.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css|less)$": "<rootDir>/__tests__/styleMock.css"
+    }
+  },
+  "main": "index.js"
+}

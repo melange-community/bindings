@@ -1,0 +1,37 @@
+{
+  "name": "bs-compression",
+  "version": "0.0.3",
+  "description": "Bucklescript bindings for Compression middlewaare",
+  "scripts": {
+    "test": "jest --watch",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viebel/bs-compression.git"
+  },
+  "keywords": [
+    "bucklescript",
+    "compression",
+    "nodejs",
+    "middleware"
+  ],
+  "author": "Yehonathan Sharvir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/viebel/bs-compression/issues"
+  },
+  "homepage": "https://github.com/viebel/bs-compression#readme",
+  "devDependencies": {
+    "bs-platform": "^2.2.2",
+    "bs-express": "^0.0.4"
+  },
+  "dependencies": {
+    "compression": "^1.7.2"
+  },
+  "peerDependencies": {
+    "bs-express": "^0.0.4"
+  }
+}

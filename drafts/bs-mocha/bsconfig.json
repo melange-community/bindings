@@ -1,0 +1,23 @@
+{
+  "name": "bs-mocha",
+  "version": "1.0.0",
+  "refmt": 3,
+  "namespace": true,
+  "bsc-flags": ["-bs-super-errors"],
+  "warnings": { "number": "-102", "error": "+8+27" },
+  "sources": [{
+    "dir": "src",
+    "subdirs": true
+  }, {
+    "dir": "test",
+    "type": "dev"
+  }],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": false
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+      // add your bs-dependencies here 
+  ]
+}

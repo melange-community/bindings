@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>bs-d3 examples</title>
+    <style>
+        /* general ui styles */
+        body, text {
+            color: #446;
+            font-family: system-ui;
+            margin: 0;
+        }
+        h1 {
+            text-align: center;
+        }
+        summary {
+            padding: 10px 20px;
+            background: linear-gradient(#eeeefa, #dde);
+            cursor: pointer;
+        }
+        .chartbox {
+            padding: 20px;
+        }
+
+        /* general viz styles */
+        text {
+            font-family: system-ui;
+        }
+        .axis line, .axis path {
+            stroke: #ccc;
+        }
+        .axis text {
+            fill: #888;
+            font-weight: normal;
+        }
+
+        /* line chart styles */
+        .linePath {
+            fill: none;
+            stroke-width: 3;
+            stroke: #337;
+        }
+        .lineArea {
+            fill: #ddf;
+            stroke: none;
+        }
+        .linePoint {
+            fill: #337;
+        }
+
+        /* bubble styles */
+        .bubbleCell .textBox {
+            opacity: 0;
+            transition: opacity 0.2s;
+            pointer-events: none;
+        }
+        .bubbleCell:hover .textBox {
+            opacity: 1;
+        }
+        .bubble.C { --hue: 180; }
+        .bubble.RW { --hue: 140; }
+        .bubble.LW { --hue: 220; }
+        .bubble {
+            fill: hsl(var(--hue), 60%, 60%);
+            opacity: 0.6;
+            transition: opacity 0.2s;
+        }
+        .name { font-size: 13px; }
+        .position { font-size: 10px; }
+        .bubble:hover {
+            opacity: 1;
+        }
+
+        /* bar styles */
+        .bar { fill: #88a; }
+
+        /* pie styles */
+        .piearc { transition: all 0.2s; }
+        .piearc:hover { opacity: 0.9; transform: scale(1.05); }
+        .teamText { font-weight: bold; font-size: 10px; }
+    </style>
+</head>
+<body>
+    <h1>bs-d3 examples</h1>
+    <details>
+        <summary>Bubble chart</summary>
+        <div class="chartbox bubblechart"></div>
+    </details>
+    <script src="./dist/bubblechart.js"></script>
+
+    <details>
+        <summary>Bar chart</summary>
+        <div class="chartbox barchart"></div>
+    </details>
+    <script src="./dist/barchart.js"></script>
+
+    <details open>
+        <summary>Pie chart</summary>
+        <div class="chartbox piechart"></div>
+    </details>
+    <script src="./dist/piechart.js"></script>
+
+    <details>
+        <summary>Line chart</summary>
+        <div class="chartbox linechart"></div>
+    </details>
+    <script src="./dist/linechart.js"></script>
+</body>
+</html>

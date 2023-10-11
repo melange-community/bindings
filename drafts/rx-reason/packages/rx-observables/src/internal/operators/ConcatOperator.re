@@ -1,0 +1,1 @@
+let create = subscriber => MergeOperator.create(~maxConcurrency=1, subscriber);

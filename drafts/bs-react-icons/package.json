@@ -1,0 +1,43 @@
+{
+  "name": "bs-react-icons",
+  "version": "0.0.1",
+  "description": "Reason bindings for React Icons",
+  "main": "lib/js/src/ReactIcons.js",
+  "author": "Alexander Bjerkan <alexander.bjerkan@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "build": "yarn generate-bindings && bsb -make-world",
+    "prepublish": "yarn run clean && yarn run build",
+    "format:js": "prettier --write \"**/*.js\"",
+    "format:reason": "bsrefmt --in-place src/*.re",
+    "format": "yarn format:js && yarn format:reason",
+    "generate-bindings": "node ./scripts/generate-bindings.js"
+  },
+  "homepage": "https://github.com/alexanbj/bs-react-icons#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexanbj/bs-react-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexanbj/bs-react-icons/issues"
+  },
+  "keywords": [
+    "react",
+    "bucklescript",
+    "reason",
+    "icons"
+  ],
+  "devDependencies": {
+    "bs-platform": "^4.0.5",
+    "prettier": "^1.14.2",
+    "reason-react": "^0.5.3"
+  },
+  "peerDependencies": {
+    "reason-react": "^0.5.0"
+  },
+  "dependencies": {
+    "react-icons": "^3.0.5"
+  }
+}

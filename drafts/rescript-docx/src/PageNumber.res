@@ -1,0 +1,5 @@
+type t = [
+  | #CURRENT
+  | #TOTAL_PAGES
+  | #TOTAL_PAGES_IN_SECTION
+]

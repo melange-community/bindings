@@ -1,0 +1,40 @@
+{
+  "name": "@tatchi/bs-idb-keyval",
+  "version": "0.2.0",
+  "description": "BuckleScript bindings for idb-keyval",
+  "main": "lib/js/src/IdbKeyVal.js",
+  "files": [
+    "src/",
+    "bsconfig.json"
+  ],
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tatchi/bs-idb-keyval.git"
+  },
+  "keywords": [
+    "reason",
+    "bucklescript",
+    "idb-keyval",
+    "idb",
+    "indexeddb",
+    "localstorage",
+    "storage"
+  ],
+  "author": "Corentin Leruth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tatchi/bs-idb-keyval/issues"
+  },
+  "homepage": "https://github.com/tatchi/bs-idb-keyval#readme",
+  "devDependencies": {
+    "bs-platform": "^7.2.2"
+  },
+  "peerDependencies": {
+    "idb-keyval": "^3.0.0"
+  }
+}

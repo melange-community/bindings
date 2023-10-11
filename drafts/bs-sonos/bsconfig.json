@@ -1,0 +1,22 @@
+{
+  "name": "bs-sonos",
+  "version": "0.1.0",
+  "sources": [
+    "src",
+    {
+      "dir": "__tests__",
+      "type": "dev"
+    }
+  ],
+  "package-specs": {
+    "module": "commonjs"
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": ["decco"],
+  "bs-dev-dependencies": ["@glennsl/bs-jest"],
+  "ppx-flags": ["decco/ppx"],
+  "warnings": {
+    "error": "+101"
+  },
+  "refmt": 3
+}

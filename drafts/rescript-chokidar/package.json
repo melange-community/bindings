@@ -1,0 +1,28 @@
+{
+  "name": "rescript-chokidar",
+  "version": "0.1.2",
+  "description": "ReScript bindings for chokidar",
+  "main": "./Main.bs.js",
+  "scripts": {
+    "build": "rescript",
+    "clean": "rescript clean -with-deps",
+    "start": "rescript build -w"
+  },
+  "keywords": [
+    "rescript",
+    "chokidar",
+    "watch"
+  ],
+  "contributors": [
+    "Roman Pominov"
+  ],
+  "homepage": "https://github.com/rpominov/rescript-chokidar#readme",
+  "bugs": "https://github.com/rpominov/rescript-chokidar/issues",
+  "repository": "github:rpominov/rescript-chokidar",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "rescript": "^9.1.4",
+    "rescript-anymatch": "^0.1.0"
+  }
+}

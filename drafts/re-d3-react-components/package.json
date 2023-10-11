@@ -1,0 +1,25 @@
+{
+    "name": "re-d3-react-components",
+    "version": "0.1.0",
+    "scripts": {
+        "build": "bsb -make-world",
+        "start": "bsb -make-world -w -ws _ ",
+        "clean": "bsb -clean-world",
+        "server": "moduleserve ./ --port 8000",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "BuckleScript"
+    ],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "bs-platform": "^7.0.1",
+        "moduleserve": "^0.8.4"
+    },
+    "dependencies": {
+        "bs-css": "^11.0.0",
+        "d3": "^5.15.0",
+        "reason-react": "^0.7.0"
+    }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "bs-react-cache",
+  "version": "0.3.0",
+  "license": "MIT",
+  "keywords": [
+    "BuckleScript"
+  ],
+  "module": "./src/ReactCache.bs.js",
+  "author": {
+    "name": "Hyeseong Kim",
+    "email": "cometkim.kr@gmail.com"
+  },
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "format": "bsrefmt --in-place **/*.re",
+    "prepublishOnly": "yarn build"
+  },
+  "files": [
+    "src/",
+    "lib/LRU.js",
+    "lib/ReactCache.js",
+    "bsconfig.json"
+  ],
+  "peerDependencies": {
+    "react": "^0.0.0-experimental-e5d06e34b",
+    "scheduler": "^0.0.0-experimental-e5d06e34b"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "bs-platform": "^7.2.2",
+    "react": "^0.0.0-experimental-e5d06e34b",
+    "scheduler": "^0.0.0-experimental-e5d06e34b"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "bs-downshift",
+  "version": "1.0.1",
+  "description": "BuckleScript bindings for Downshift",
+  "license": "MIT",
+  "author": "Nicola Molinari <me@emmenko.org> (http://emmenko.org)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reasonml-community/bs-downshift.git"
+  },
+  "homepage": "https://github.com/reasonml-community/bs-downshift#readme",
+  "bugs": "https://github.com/reasonml-community/bs-downshift/issues",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "downshift": "1.25.0"
+  },
+  "peerDependencies": {
+    "bs-platform": "^3.0.0"
+  },
+  "devDependencies": {
+    "bs-platform": "^3.0.0",
+    "downshift": "1.25.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "reason-react": "^0.4.1"
+  },
+  "keywords": [
+    "BuckleScript",
+    "Downshift",
+    "React",
+    "Reason"
+  ]
+}

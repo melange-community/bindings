@@ -1,0 +1,20 @@
+{
+  "name": "webgl",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "serve": "parcel www/index.html",
+    "deploy": "parcel build --public-url ./ www/index.html"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "Shritesh Bhattarai <shr@ite.sh>",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "*",
+    "parcel-bundler": "^1.12.4"
+  }
+}

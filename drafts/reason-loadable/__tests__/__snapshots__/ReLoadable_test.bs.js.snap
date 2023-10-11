@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlainJsClassInternal 1`] = `
+<h2>
+  Hello World : 
+  test
+</h2>
+`;
+
+exports[`PlainJsExternal 1`] = `
+<h2>
+  Hello World
+</h2>
+`;
+
+exports[`PlainJsFnInternal 1`] = `
+<h2>
+  Hello World : 
+  test
+</h2>
+`;
+
+exports[`SimpleReasonReact 1`] = `
+<h1>
+  Hello World : test
+</h1>
+`;

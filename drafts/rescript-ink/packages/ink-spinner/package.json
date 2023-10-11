@@ -1,0 +1,43 @@
+{
+  "name": "@rescript-ink/ink-spinner",
+  "version": "3.0.0",
+  "description": "ReScript binding for ink-spinner",
+  "license": "MIT",
+  "author": {
+    "name": "Hyeseong Kim",
+    "email": "hey@hyeseong.kim"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cometkim/rescript-ink.git",
+    "directory": "packages/ink-spinner"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "rescript build",
+    "start": "rescript build -w",
+    "clean": "rescript clean",
+    "prepack": "yarn build"
+  },
+  "files": [
+    "src",
+    "bsconfig.json"
+  ],
+  "peerDependencies": {
+    "ink": "^3.0.0",
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "rescript": "^9.0.0 || ^10.0.0",
+    "rescript-ink": "workspace:^1.3.0"
+  },
+  "dependencies": {
+    "ink-spinner": "^4.0.3"
+  },
+  "devDependencies": {
+    "@rescript/react": "^0.10.3",
+    "ink": "^3.2.0",
+    "rescript": "^10.0.1",
+    "rescript-ink": "workspace:^1.3.0"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "bs-compression",
+  "refmt": 3,
+  "bs-dependencies": ["bs-express"],
+  "bsc-flags": ["-bs-super-errors"],
+  "sources": [{ "dir": "src" }]
+}

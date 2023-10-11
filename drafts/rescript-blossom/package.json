@@ -1,0 +1,53 @@
+{
+  "name": "rescript-blossom",
+  "version": "3.0.0",
+  "description": "A ReScript implementation of the blossom maximum-matching algorithm",
+  "scripts": {
+    "build": "rescript",
+    "start": "rescript build -w",
+    "clean": "rescript clean",
+    "pretest": "npm run build",
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "bench": "npm run build && node ./lib/js/__benchmarks__/Node.js",
+    "browser": "serve .",
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags",
+    "docs": "rescript && bsdoc build Blossom"
+  },
+  "keywords": [
+    "ReScript",
+    "Maximum Weighted Matching",
+    "Maximum Matching",
+    "Matching",
+    "Blossom algorithm"
+  ],
+  "homepage": "https://johnridesa.bike/rescript-blossom/",
+  "author": {
+    "name": "John Jackson",
+    "email": "johnbicyclejackson@icloud.com",
+    "url": "https://johnridesa.bike/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnridesabike/rescript-blossom.git"
+  },
+  "bugs": {
+    "url": "https://github.com/johnridesabike/rescript-blossom/issues",
+    "email": "johnbicyclejackson@icloud.com"
+  },
+  "license": "MPL-2.0",
+  "files": [
+    "src/**/*.res",
+    "src/**/*.resi",
+    "bsconfig.json"
+  ],
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.6.0",
+    "benchmark": "^2.1.4",
+    "bsdoc": "^6.0.2-alpha",
+    "edmonds-blossom": "^1.0.0",
+    "rescript": "^9.1.2",
+    "serve": "^11.3.2"
+  }
+}

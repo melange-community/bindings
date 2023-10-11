@@ -1,0 +1,28 @@
+{
+  "name": "rescript-anymatch",
+  "version": "0.1.0",
+  "description": "ReScript bindings for anymatch",
+  "main": "./Main.bs.js",
+  "scripts": {
+    "build": "rescript",
+    "clean": "rescript clean -with-deps",
+    "start": "rescript build -w"
+  },
+  "keywords": [
+    "rescript",
+    "anymatch",
+    "glob"
+  ],
+  "contributors": [
+    "Roman Pominov"
+  ],
+  "homepage": "https://github.com/rpominov/rescript-anymatch#readme",
+  "bugs": "https://github.com/rpominov/rescript-anymatch/issues",
+  "repository": "github:rpominov/rescript-anymatch",
+  "license": "MIT",
+  "dependencies": {
+    "anymatch": "^3.1.2",
+    "rescript": "^9.1.4",
+    "rescript-picomatch": "^0.1.0"
+  }
+}

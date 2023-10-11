@@ -1,0 +1,42 @@
+{
+  "name": "bs-simple-maps",
+  "version": "0.1.1",
+  "description": "BuckleScript bindings for react-simple-maps",
+  "scripts": {
+    "jest": "jest",
+    "test": "bsb -make-world && jest",
+    "start": "bsb -make-world -w",
+    "examples": "serve",
+    "clean": "bsb -clean-world && rm -f finalOutput/*.js"
+  },
+  "keywords": [
+    "react-simple-maps",
+    "bucklescript",
+    "reason",
+    "mapping"
+  ],
+  "author": "Jan Poeschko <jan@poeschko.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reasonml-community/bs-react-simple-maps.git"
+  },
+  "dependencies": {
+    "react-simple-maps": "^0.12.1"
+  },
+  "peerDependencies": {
+    "bs-platform": "^3.0.0"
+  },
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.4.2",
+    "bs-platform": "^3.0.0",
+    "react": "^16.3.2",
+    "reason-react": "^0.4.1",
+    "serve": "^7.0.1"
+  },
+  "jest": {
+    "roots": [
+      "lib/js/src"
+    ]
+  }
+}

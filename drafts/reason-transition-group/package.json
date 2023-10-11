@@ -1,0 +1,27 @@
+{
+  "name": "reason-transition-group",
+  "version": "2.1.1",
+  "description": "Bucklescript bindings for react-transition-group",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [
+    "BuckleScript",
+    "ReasonReact",
+    "Transition"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JakubMarkiewicz/reason-transition-group"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^7.0.2-dev.2",
+    "reason-react": "^0.7.0"
+  },
+  "dependencies": {
+    "react-transition-group": "^4.0.0"
+  }
+}

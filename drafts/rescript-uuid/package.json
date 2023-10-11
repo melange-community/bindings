@@ -1,0 +1,26 @@
+{
+  "name": "rescript-uuid",
+  "version": "9.0.0-rc",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "clean": "rescript clean"
+  },
+  "keywords": [
+    "Rescript"
+  ],
+  "author": "ilyakozlovdev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ilyakozlovdev/rescript-uuid.git"
+  },
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.7.0",
+    "rescript": "^10.1.2"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0"
+  }
+}

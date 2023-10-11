@@ -1,0 +1,33 @@
+{
+  "name": "bs-zarith",
+  "version": "3.2.0",
+  "description": "Support Unsigned, Bigint, Bigfloat, Q (rational numbers) and Z (integer numbers) in BuckleScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "yarn clean && yarn run re:build",
+    "build-dirty": "yarn run re:build",    
+    "clean": "rescript clean",
+    "start": "yarn run dev | yarn run re:watch",    
+    "test": "yarn run re:build && yarn run jest",
+    "re:watch": "rescript build -w",
+    "re:build": "rescript build",
+    "re:build-deps": "rescript build -with-deps"    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plow-technologies/bs-zarith.git"
+  },
+  "keywords": [
+    "bucklescript"
+  ],
+  "author": "James M.C. Haver II",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/plow-technologies/bs-zarith/issues"
+  },
+  "homepage": "https://github.com/plow-technologies/bs-zarith#readme",
+  "devDependencies": {
+    "@glennsl/bs-jest": "0.5.1",
+    "rescript": "^10.0.1"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "@beem812/bs-jsonwebtoken",
+  "version": "0.2.14",
+  "description": "Bucklescirpt bindings for the Jsonwebtoken npm package",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "jest"
+  },
+  "keywords": [
+    "BuckleScript",
+    "ReasonMl",
+    "JsonWebToken"
+  ],
+  "author": "James Beem",
+  "license": "LGPL-3.0-or-later",
+  "homepage": "https://github.com/beem812/bs-jsonwebtoken#readme",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/beem812/bs-jsonwebtoken.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/beem812/bs-jsonwebtoken/issues"
+  },
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.4.9",
+    "bs-platform": "^5.0.6"
+  },
+  "dependencies": {
+    "@glennsl/bs-json": "^5.0.1",
+    "bs-node": "github:reasonml-community/bs-node",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}

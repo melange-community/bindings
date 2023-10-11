@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>RescriptCron (rescript-cron.RescriptCron.RescriptCron)</title>
+    <link rel="stylesheet" href="./odoc.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <script src="./highlight.pack.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+  </head>
+  <body>
+    <div class="content">
+      <header>
+        <nav>&#x00BB; RescriptCron</nav>
+        <h1>Module <code>RescriptCron</code></h1>
+        <p>
+          From
+          <a href="https://github.com/kelektiv/node-cron"
+            >node-cron GitHub-page</a
+          >: Cron is a tool that allows you to execute something on a schedule.
+          This is typically done using the cron syntax. We allow you to execute
+          a function whenever your scheduled job triggers. We also allow you to
+          execute a job external to the JavaScript process using
+          <code>child_process</code>. Additionally, this library goes beyond the
+          basic cron syntax and allows you to supply a
+          <span
+            class="xref-unresolved"
+            title='unresolved reference to "Js.Date.t"'
+            ><span
+              class="xref-unresolved"
+              title='unresolved reference to "Js.Date"'
+              ><code>Js</code>.Date</span
+            >.t</span
+          >
+          object. This will be used as the trigger for your callback. Cron
+          syntax is still an acceptable cron time format. Although the Cron
+          patterns supported here extend on the standard Unix format to support
+          seconds digits, leaving it off will default to 0 and match the Unix
+          behavior.
+        </p>
+      </header>
+      <dl>
+        <dt class="spec module" id="module-CronJob">
+          <a href="#module-CronJob" class="anchor"></a
+          ><code
+            ><span class="keyword">module </span><a href="CronJob">CronJob</a> :
+            <span class="keyword">sig</span> ...
+            <span class="keyword">end</span></code
+          >
+        </dt>
+        <dd><p>Module for creating new cron jobs</p></dd>
+      </dl>
+      <dl>
+        <dt class="spec module" id="module-CronTime">
+          <a href="#module-CronTime" class="anchor"></a
+          ><code
+            ><span class="keyword">module </span
+            ><a href="CronTime">CronTime</a> :
+            <span class="keyword">sig</span> ...
+            <span class="keyword">end</span></code
+          >
+        </dt>
+        <dd>
+          <p>
+            Module for creating cron times that can be used to alter a cron job
+          </p>
+        </dd>
+      </dl>
+      <dl>
+        <dt class="spec external" id="val-sendAt">
+          <a href="#val-sendAt" class="anchor"></a
+          ><code
+            ><span class="keyword">external </span>sendAt : [ `CronString of
+            string<span class="keyword"> | </span>`JsDate of Js.Date.t ]
+            <span>&#45;&gt;</span> MomentRe.Moment.t = &quot;sendAt&quot;
+            &quot;BS&quot;
+          </code>
+        </dt>
+        <dd>
+          <p>
+            <code>sendAt(cronTime)</code> check for a given
+            <code>cronTime</code> (either created with the cron format (e.g.
+            <code>2 * * * * * *</code>) or as a
+            <span
+              class="xref-unresolved"
+              title='unresolved reference to "Js.Date.t"'
+              ><span
+                class="xref-unresolved"
+                title='unresolved reference to "Js.Date"'
+                ><code>Js</code>.Date</span
+              >.t</span
+            >) when it will fire next.
+          </p>
+        </dd>
+      </dl>
+      <dl>
+        <dt class="spec external" id="val-timeout">
+          <a href="#val-timeout" class="anchor"></a
+          ><code
+            ><span class="keyword">external </span>timeout : [ `CronString of
+            string<span class="keyword"> | </span>`JsDate of Js.Date.t ]
+            <span>&#45;&gt;</span> float = &quot;timeout&quot; &quot;BS&quot;
+          </code>
+        </dt>
+        <dd>
+          <p>
+            <code>timeout(cronTime)</code> returns the number of milliseconds in
+            the future at which to fire the next <code>onTick</code> (and
+            eventually other callbacks added with
+            <a href="#val-addCallback"><code>addCallback</code></a
+            >).
+          </p>
+        </dd>
+      </dl>
+      <dl>
+        <dt class="spec external" id="val-start">
+          <a href="#val-start" class="anchor"></a
+          ><code
+            ><span class="keyword">external </span>start :
+            <a href="CronJob#type-t">CronJob.t</a> <span>&#45;&gt;</span> unit =
+            &quot;start&quot; &quot;BS&quot;
+          </code>
+        </dt>
+        <dd>
+          <p><code>start(cronJob)</code> runs your job</p>
+        </dd>
+      </dl>
+      <dl>
+        <dt class="spec external" id="val-stop">
+          <a href="#val-stop" class="anchor"></a
+          ><code
+            ><span class="keyword">external </span>stop :
+            <a href="CronJob#type-t">CronJob.t</a> <span>&#45;&gt;</span> unit =
+            &quot;stop&quot; &quot;BS&quot;
+          </code>
+        </dt>
+        <dd>
+          <p><code>stop(cronJob)</code> stops your job</p>
+        </dd>
+      </dl>
+      <dl>
+        <dt class="spec external" id="val-setTime">
+          <a href="#val-setTime" class="anchor"></a
+          ><code
+            ><span class="keyword">external </span>setTime :
+            <a href="CronJob#type-t">CronJob.t</a> <span>&#45;&gt;</span>
+            <a href="CronTime#type-t">CronTime.t</a> <span>&#45;&gt;</span> unit
+            = &quot;setTime&quot; &quot;BS&quot;
+          </code>
+        </dt>
+        <dd>
+          <p>
+            <code>setTime(cronJob, cronTime)</code> changes the time of your
+            job. The job will be stopped if it is running (and hence must be
+            started again to be running).
+          </p>
+        </dd>
+      </dl>
+      <dl>
+        <dt class="spec external" id="val-lastDate">
+          <a href="#val-lastDate" class="anchor"></a
+          ><code
+            ><span class="keyword">external </span>lastDate :
+            <a href="CronJob#type-t">CronJob.t</a>
+            <span>&#45;&gt;</span> Js.Date.t = &quot;lastDate&quot;
+            &quot;BS&quot;
+          </code>
+        </dt>
+        <dd>
+          <p>
+            <code>lastDate(cronJob)</code> returns the last date the job was
+            executed
+          </p>
+        </dd>
+      </dl>
+      <dl>
+        <dt class="spec value" id="val-nextMomentDates">
+          <a href="#val-nextMomentDates" class="anchor"></a
+          ><code
+            ><span class="keyword">val </span>nextMomentDates :
+            ?&#8288;numberOfDates:int <span>&#45;&gt;</span>
+            <a href="CronJob#type-t">CronJob.t</a>
+            <span>&#45;&gt;</span> MomentRe.Moment.t array</code
+          >
+        </dt>
+        <dd>
+          <p>
+            <code>nextMomentDates(n, cronJob)</code> returns the
+            <code>n</code> next
+            <span
+              class="xref-unresolved"
+              title='unresolved reference to "Moment.t"'
+              ><code>Moment</code>.t</span
+            >
+            that will trigger an <code>onTick</code>
+          </p>
+        </dd>
+      </dl>
+      <dl>
+        <dt class="spec value" id="val-nextJsDates">
+          <a href="#val-nextJsDates" class="anchor"></a
+          ><code
+            ><span class="keyword">val </span>nextJsDates :
+            ?&#8288;numberOfDates:int <span>&#45;&gt;</span>
+            <a href="CronJob#type-t">CronJob.t</a>
+            <span>&#45;&gt;</span> Js.Date.t array</code
+          >
+        </dt>
+        <dd>
+          <p>
+            <code>nextJsDates(n, cronJob)</code> returns the <code>n</code> next
+            <span
+              class="xref-unresolved"
+              title='unresolved reference to "Js.Date.t"'
+              ><span
+                class="xref-unresolved"
+                title='unresolved reference to "Js.Date"'
+                ><code>Js</code>.Date</span
+              >.t</span
+            >
+            that will trigger an <code>onTick</code>
+          </p>
+        </dd>
+      </dl>
+      <dl>
+        <dt class="spec external" id="val-fireOnTick">
+          <a href="#val-fireOnTick" class="anchor"></a
+          ><code
+            ><span class="keyword">external </span>fireOnTick :
+            <a href="CronJob#type-t">CronJob.t</a> <span>&#45;&gt;</span> unit =
+            &quot;fireOnTick&quot; &quot;BS&quot;
+          </code>
+        </dt>
+        <dd>
+          <p>
+            <code>fireOnTick(cronJob)</code> will fire the
+            <code>onTick</code> and all callbacks added with
+            <a href="#val-addCallback"><code>addCallback</code></a>
+          </p>
+        </dd>
+      </dl>
+      <dl>
+        <dt class="spec external" id="val-addCallback">
+          <a href="#val-addCallback" class="anchor"></a
+          ><code
+            ><span class="keyword">external </span>addCallback :
+            <a href="CronJob#type-t">CronJob.t</a> <span>&#45;&gt;</span> ((unit
+            <span>&#45;&gt;</span> unit) <span>&#45;&gt;</span> unit)
+            <span>&#45;&gt;</span> unit = &quot;addCallback&quot; &quot;BS&quot;
+          </code>
+        </dt>
+        <dd>
+          <p>
+            <code>addCallback(cronJob)</code> will add a callback that is fired
+            on every tick. It is possible to add multiple callbacks.
+          </p>
+        </dd>
+      </dl>
+    </div>
+  </body>
+</html>

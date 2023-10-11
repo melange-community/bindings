@@ -1,0 +1,28 @@
+opam-version: "2.0"
+license: "MIT"
+homepage: "https://github.com/davesnx/bindings"
+bug-reports: "https://github.com/davesnx/bindings/issues"
+depends: [
+  "dune" {>= "3.9"}
+  "ocaml" {>= "5.1.0"}
+  "melange" {>= "2.0.0"}
+  "reason" {>= "3.10.0"}
+  "ocaml-lsp-server" {with-test}
+  "ocamlformat" {= "0.26.0" & with-dev-setup}
+  "odoc" {with-doc}
+]
+build: [
+  ["dune" "subst"] {dev}
+  [
+    "dune"
+    "build"
+    "-p"
+    name
+    "-j"
+    jobs
+    "@install"
+    "@runtest" {with-test}
+    "@doc" {with-doc}
+  ]
+]
+dev-repo: "git+https://github.com/davesnx/bindings.git"

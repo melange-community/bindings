@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MySql2 Error Handling Should parse out an empty error with defaults 1`] = `
+Object {
+  "RE_EXN_ID": "Failure",
+  "_1": "UNKNOWN - 99999 (99999) - IDKWTM",
+}
+`;
+
+exports[`MySql2 Error Handling Should respond with an access denied error 1`] = `
+Object {
+  "RE_EXN_ID": "Failure",
+  "_1": "Error - ER_NOT_SUPPORTED_AUTH_MODE (1251) - Client does not support authentication protocol requested by server; consider upgrading MySQL client - (08004) Client does not support authentication protocol requested by server; consider upgrading MySQL client",
+}
+`;
+
+exports[`MySql2 Error Handling Should respond with an error on invalid SQL syntax. 1`] = `
+Object {
+  "RE_EXN_ID": "Failure",
+  "_1": "Error - ER_PARSE_ERROR (1064) - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS result' at line 1 - (42000) You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS result' at line 1",
+}
+`;
+
+exports[`MySql2 Error Handling Should return a defaulted error 1`] = `
+Object {
+  "RE_EXN_ID": "Failure",
+  "_1": "UNKNOWN - 99999 (99999) - EMPTY_MESSAGE",
+}
+`;
+
+exports[`MySql2 Error Handling should give appropriate message when only a sqlMessage is given 1`] = `
+Object {
+  "RE_EXN_ID": "Failure",
+  "_1": "UNKNOWN - 99999 (99999) - EMPTY_MESSAGE - test",
+}
+`;
+
+exports[`MySql2 Error Handling should give appropriate message when only a sqlState is given 1`] = `
+Object {
+  "RE_EXN_ID": "Failure",
+  "_1": "UNKNOWN - 99999 (99999) - EMPTY_MESSAGE - (test)",
+}
+`;

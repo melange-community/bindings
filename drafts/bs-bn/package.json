@@ -1,0 +1,35 @@
+{
+  "name": "bs-bn.js",
+  "version": "0.0.2",
+  "description": "BuckleScript bindings to bn.js",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "npm run build && jest",
+    "watch:jest": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jchavarri/bs-bn.js"
+  },
+  "keywords": [
+    "reason",
+    "reasonml",
+    "bucklescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jchavarri/bs-bn.js/issues"
+  },
+  "homepage": "https://github.com/jchavarri/bs-bn.js",
+  "devDependencies": {
+    "bn.js": "^4.11.8",
+    "bs-jest": "reasonml-community/bs-jest",
+    "bs-platform": "^2.1.0"
+  },
+  "peerDependencies": {
+    "bn.js": "^4.0.0"
+  }
+}

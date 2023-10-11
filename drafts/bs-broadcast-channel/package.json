@@ -1,0 +1,26 @@
+{
+  "name": "bs-broadcast-channel",
+  "version": "0.3.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "Alexis Munsayac <alexis.munsayac@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^7.0.1"
+  },
+  "dependencies": {},
+  "description": "ReasonML bindings for the Broadcast Channel API",
+  "main": "index.js",
+  "repository": "https://github.com/LXSMNSYC/bs-broadcast-channel.git",
+  "homepage": "https://github.com/LXSMNSYC/bs-broadcast-channel",
+  "bugs": {
+    "url": "https://github.com/LXSMNSYC/bs-broadcast-channel/issues"
+  },
+  "private": false
+}

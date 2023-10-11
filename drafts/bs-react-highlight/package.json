@@ -1,0 +1,38 @@
+{
+  "name": "@cnguy/bs-react-highlight",
+  "version": "0.1.0",
+  "description": "ReasonReact bindings for akiran/react-highlight",
+  "main": "index.js",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cnguy/bs-react-highlight.git"
+  },
+  "keywords": [
+    "bucklescript",
+    "react",
+    "ui"
+  ],
+  "author": "cnguy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cnguy/bs-react-highlight/issues"
+  },
+  "homepage": "https://github.com/cnguy/bs-react-highlight#readme",
+  "files": [
+    "src/*.re*",
+    "bsconfig.json"
+  ],
+  "devDependencies": {
+    "bs-platform": "^4.0.3",
+    "reason-react": "^0.5.3",
+    "react-highlight": "^0.12.0"
+  },
+  "peerDependencies": {
+    "reason-react": "^0.5.3"
+  }
+}

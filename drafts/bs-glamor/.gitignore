@@ -1,0 +1,8 @@
+.DS_Store
+.idea/
+.vscode/
+/node_modules*
+/lib/
+npm-debug.log
+finalOutput/*.js
+.merlin

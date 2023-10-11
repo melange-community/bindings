@@ -1,0 +1,29 @@
+{
+  "name": "bs-barcode",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andresrgz/bs-barcode.git"
+  },
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [
+    "BuckleScript",
+    "JsBarcode"
+  ],
+  "author": "andresrgz",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-canvas": "github:andresrgz/bs-canvas",
+    "bs-platform": "^4.0.5"
+  },
+  "peerDependencies": {
+    "bs-canvas": "github:andresrgz/bs-canvas"
+  },
+  "dependencies": {
+    "jsbarcode": "^3.9.0"
+  }
+}

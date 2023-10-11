@@ -1,0 +1,33 @@
+{
+  "name": "bs-mocha",
+  "version": "1.0.0",
+  "description": "Bucklescript bindings for mocha",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:reasonml-community/bs-mocha.git"
+  },
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "start": "bsb -make-world -w",
+    "test": "./node_modules/.bin/mocha lib/js/test/Test_*"
+  },
+  "homepage": "https://github.com/reasonml-community/bs-mocha",
+  "bugs": "https://github.com/reasonml-community/bs-mocha/issues",
+  "keywords": [
+    "BuckleScript",
+    "reason"
+  ],
+  "contributors": [
+    "Hongbo Zhang",
+    "Risto Stevcev"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^5.0.0"
+  },
+  "dependencies": {
+    "mocha": "^6.2.0"
+  }
+}

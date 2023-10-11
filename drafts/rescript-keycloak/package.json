@@ -1,0 +1,26 @@
+{
+  "name": "rescript-keycloak",
+  "description": "Rescript bindings for keycloak-js",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "re:build": "rescript",
+    "re:start": "rescript build -w",
+    "re:clean-build": "rescript clean && rescript",
+    "start": "npm run re:start",
+    "build": "npm run re:build",
+    "test": "npm run re:clean-build",
+    "release": "npmpub"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@react-keycloak/web": "^3.4.0",
+    "@rescript/react": "^0.10.3",
+    "keycloak-js": "^19.0.2",
+    "npmpub": "^5.1.1",
+    "react": "^18.2.0",
+    "rescript": "^10.0.1"
+  }
+}

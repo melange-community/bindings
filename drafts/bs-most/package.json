@@ -1,0 +1,41 @@
+{
+  "name": "bs-most",
+  "version": "0.1.2",
+  "description": "Reason/BuckleScript bindings for the Most.js reactive toolkit Edit",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lokeh/bs-most.git"
+  },
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "test": "jest"
+  },
+  "author": "lilactown",
+  "keywords": [
+    "BuckleScript",
+    "Reason",
+    "OCaml",
+    "reactive",
+    "streams",
+    "promise",
+    "functional",
+    "async",
+    "most",
+    "most.js"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lokeh/bs-most/issues"
+  },
+  "homepage": "https://github.com/Lokeh/bs-most#readme",
+  "devDependencies": {
+    "bs-jest": "^0.3.2",
+    "bs-platform": "^4.0.0"
+  },
+  "dependencies": {
+    "most": "^1.7.0",
+    "most-subject": "^5.3.0"
+  }
+}

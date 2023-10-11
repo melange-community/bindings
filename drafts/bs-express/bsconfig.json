@@ -1,0 +1,20 @@
+{
+  "name": "bs-express",
+  "bsc-flags": [
+    "-bs-super-errors"
+  ],
+  "sources": [
+    "src",
+    {
+      "dir": "example",
+      "type": "dev"
+    }
+  ],
+  "bs-dev-dependencies": [
+    "@glennsl/bs-json"
+  ],
+  "refmt": 3,
+  "warnings": {
+    "number": "-105"
+  }
+}

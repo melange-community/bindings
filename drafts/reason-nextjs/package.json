@@ -1,0 +1,23 @@
+{
+  "name": "@clubinvestbr/reason-nextjs",
+  "version": "0.0.1",
+  "author": "Rodrigo Oler <https://github.com/rodrigooler>",
+  "dependencies": {
+    "babel-plugin-bucklescript": "0.5.2",
+    "next": "7.0.2",
+    "react": "16.5.2",
+    "react-dom": "16.5.2",
+    "reason-react": "0.5.3"
+  },
+  "devDependencies": {
+    "bs-platform": "4.0.6",
+    "concurrently": "4.0.1",
+    "webpack": "4.21.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "bsb -clean-world -make-world && next build",
+    "dev": "concurrently \"bsb -clean-world -make-world -w\" \"next dev\"",
+    "start": "next start"
+  }
+}

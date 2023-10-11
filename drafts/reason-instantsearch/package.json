@@ -1,0 +1,33 @@
+{
+  "name": "reason-instantsearch",
+  "private": true,
+  "homepage": "https://reason-rover.now.sh",
+  "version": "0.1.0",
+  "scripts": {
+    "build:re": "bsb -make-world",
+    "start:re": "bsb -make-world -w",
+    "clean:re": "bsb -clean-world",
+    "build:js": "webpack --mode=production",
+    "start:js": "webpack --watch --mode=development",
+    "build": "yarn build:re && yarn build:js",
+    "start": "serve",
+    "dev": "concurrently 'yarn start:re' 'yarn start:js' 'serve'"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "Haroen Viaene",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^3.1.4",
+    "concurrently": "^3.5.1",
+    "copy-webpack-plugin": "^4.5.1",
+    "webpack": "^4.10.1",
+    "webpack-cli": "^2.1.4"
+  },
+  "dependencies": {
+    "react-instantsearch": "^5.1.0",
+    "reason-react": "^0.4.2",
+    "serve": "^7.0.1"
+  }
+}

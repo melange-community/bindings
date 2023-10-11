@@ -1,0 +1,41 @@
+{
+  "name": "@reasonableconsulting/bs-victory",
+  "description": "BuckleScript bindings for Victory Charts.",
+  "version": "0.0.0",
+  "license": "MPL-2.0",
+  "repository": "reasonableconsulting/bs-victory",
+  "author": "Reasonable Consulting <contact@reasonable.consulting> (https://reasonable.consulting)",
+  "contributors": [
+    "Blaine Bublitz <blaine.bublitz@gmail.com> (https://github.com/phated)"
+  ],
+  "main": "src/Victory.bs.js",
+  "files": [
+    "src/*.bs.js",
+    "src/*.re",
+    "bsconfig.json",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "bs-platform": "^4.0.0",
+    "reason-react": "^0.5.3",
+    "victory": "^30.4.1"
+  },
+  "peerDependencies": {
+    "reason-react": "^0.5.0",
+    "victory": "^30.0.0"
+  },
+  "keywords": [
+    "BuckleScript",
+    "Reason",
+    "Victory",
+    "Charts",
+    "Charting"
+  ]
+}

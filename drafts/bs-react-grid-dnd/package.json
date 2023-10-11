@@ -1,0 +1,58 @@
+{
+  "name": "bs-react-grid-dnd",
+  "description": "ReasonML bindings for the react-grid-dnd library",
+  "version": "0.2.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "dev": "parcel ./examples/index.html"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/eschaefer/bs-react-grid-dnd#readme",
+  "keywords": [
+    "BuckleScript",
+    "ReasonReact",
+    "reason-react",
+    "react-dnd",
+    "react-grid-dnd",
+    "drag",
+    "drop"
+  ],
+  "author": {
+    "name": "Eric Schaefer",
+    "email": "omg@eric-schaefer.com"
+  },
+  "main": "./src/ReactGridDnd.re",
+  "files": [
+    "src/*.re",
+    "bsconfig.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eschaefer/bs-react-grid-dnd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eschaefer/bs-react-grid-dnd/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^6.2.1",
+    "bsb-js": "^1.1.7",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "reason-react": "^0.7.0"
+  },
+  "dependencies": {
+    "react-gesture-responder": "^2.1.0",
+    "react-grid-dnd": "^2.1.1"
+  },
+  "peerDependencies": {
+    "reason-react": ">=0.7.0",
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  }
+}

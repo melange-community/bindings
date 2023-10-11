@@ -1,0 +1,41 @@
+{
+  "name": "bs-react-shadow-scroll",
+  "description": "ReasonML bindings for the react-shadow-scroll",
+  "version": "0.2.0",
+  "main": "src/ReactShadowScroll.re",
+  "license": "MIT",
+  "author": "André Lins <andrelucas01@hotmail.com> (https://andrelmlins.github.io/)",
+  "files": [
+    "src"
+  ],
+  "homepage": "https://github.com/andrelmlins/bs-react-shadow-scroll",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrelmlins/bs-react-shadow-scroll.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andrelmlins/bs-react-shadow-scroll/issues"
+  },
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "exit 0"
+  },
+  "keywords": [
+    "reasonml",
+    "binding",
+    "react",
+    "scroll",
+    "shadow"
+  ],
+  "dependencies": {
+    "react-shadow-scroll": "^2.0.0"
+  },
+  "devDependencies": {
+    "bs-platform": "^7.3.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "reason-react": "^0.8.0"
+  }
+}

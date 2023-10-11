@@ -1,0 +1,41 @@
+{
+  "name": "@justgage/reason-cookie",
+  "version": "0.1.1",
+  "private": false,
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "npm run build && jest --coverage",
+    "test-watch": "npm run build && jest --watch"
+  },
+  "keywords": [
+    "BuckleScript",
+    "ReasonMl",
+    "cookie",
+    "Reason"
+  ],
+  "author": "Gage Peterson",
+  "license": "MIT",
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.4.2",
+    "bs-platform": "^3.0.0"
+  },
+  "dependencies": {
+    "js-cookie": "^2.2.0"
+  },
+  "description": "a simple way to use cross-browser cookies that contain JSON.",
+  "main": "src/Cookie.re",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justgage/reason-cookie.git"
+  },
+  "bugs": {
+    "url": "https://github.com/justgage/reason-cookie/issues"
+  },
+  "homepage": "https://github.com/justgage/reason-cookie#readme"
+}

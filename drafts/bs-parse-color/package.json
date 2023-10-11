@@ -1,0 +1,42 @@
+{
+  "name": "bs-parse-color",
+  "version": "0.6.1",
+  "description": "BuckleScript bindings for the parse-color js library",
+  "main": "src/ParseColor.bs.js",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "test": "npm run build && jest",
+    "test:watch": "npm run build && jest --watch",
+    "build:ci": "bsb -clean-world && bsb -make-world",
+    "test:ci": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theatlasroom/bs-parse-color.git"
+  },
+  "bugs": {
+    "url": "https://github.com/theatlasroom/bs-parse-color/issues"
+  },
+  "homepage": "https://github.com/theatlasroom/bs-parse-color#readme",
+  "keywords": [
+    "BuckleScript",
+    "reasonml",
+    "colors",
+    "parsing",
+    "fun",
+    "reason",
+    "convert"
+  ],
+  "author": "theatlasroom",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^7.2.2",
+    "bsb-js": "^1.1.7"
+  },
+  "dependencies": {
+    "@glennsl/bs-jest": "^0.5.1",
+    "parse-color": "^1.0.0"
+  }
+}

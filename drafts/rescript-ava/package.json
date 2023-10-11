@@ -1,0 +1,39 @@
+{
+  "name": "@dzakh/rescript-ava",
+  "version": "2.3.0",
+  "description": "Runtime free ReScript bindings for Ava",
+  "keywords": [
+    "ReScript",
+    "ava",
+    "test",
+    "unit tests",
+    "nodejs",
+    "jest"
+  ],
+  "homepage": "https://github.com/DZakh/rescript-ava#readme",
+  "bugs": {
+    "url": "https://github.com/DZakh/rescript-ava/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DZakh/rescript-ava.git"
+  },
+  "license": "MIT",
+  "author": "Dmitry Zakharov <dzakh.dev@gmail.com>",
+  "files": [
+    "src/**/*.res",
+    "src/**/*.resi",
+    "bsconfig.json"
+  ],
+  "scripts": {
+    "res:build": "rescript build -with-deps",
+    "res:dev": "rescript build -with-deps -w"
+  },
+  "devDependencies": {
+    "rescript": "11.0.0-alpha.5"
+  },
+  "peerDependencies": {
+    "ava": "5.2.x",
+    "rescript": "10.1.x || ~11.0.0-alpha"
+  }
+}

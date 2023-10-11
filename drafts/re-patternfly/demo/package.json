@@ -1,0 +1,43 @@
+{
+  "name": "re-patternfly-seed",
+  "version": "1.0.0",
+  "description": "A starter project for re-patternfly",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "test": "jest --verbose --testMatch **/tests/*.bs.js",
+    "serve": "parcel serve ./src/index.html",
+    "dist": "parcel build ./src/index.html --public-url /"
+  },
+  "keywords": [
+    "patternfly",
+    "react",
+    "rescript-react",
+    "rescript"
+  ],
+  "license": "Apache-2.0",
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "dependencies": {
+    "@patternfly/react-core": "^4.115.2",
+    "@patternfly/react-icons": "^4.7.12",
+    "@patternfly/react-table": "^4.18.14",
+    "@rescript/react": "^0.10.1",
+    "@softwarefactory-project/re-patternfly": "../",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  },
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.5.1",
+    "bs-platform": "^8.2.0",
+    "jest": "^26.5.0",
+    "parcel": "^1.12.4"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css|less)$": "<rootDir>/tests/styleMock.js"
+    }
+  },
+  "main": "index.js"
+}

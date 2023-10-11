@@ -1,0 +1,27 @@
+{
+  "name": "rescript-clean-deep",
+  "version": "2.0.0",
+  "scripts": {
+    "build": "rescript build",
+    "start": "rescript build -w",
+    "clean": "rescript clean",
+    "pretest": "yarn run build",
+    "test": "jest"
+  },
+  "keywords": [
+    "rescript"
+  ],
+  "author": "mikaello",
+  "description": "Remove empty or nullable values from JavaScript objects",
+  "homepage": "https://github.com/mikaello/rescript-clean-deep",
+  "repository": "https://github.com/mikaello/rescript-clean-deep",
+  "bugs": "https://github.com/mikaello/rescript-clean-deep/issues",
+  "license": "MIT",
+  "devDependencies": {
+    "@glennsl/rescript-jest": "0.10.0",
+    "rescript": "10.1.4"
+  },
+  "dependencies": {
+    "clean-deep": "3.4.0"
+  }
+}

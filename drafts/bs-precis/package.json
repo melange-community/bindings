@@ -1,0 +1,40 @@
+{
+  "name": "bs-precis",
+  "version": "0.3.0",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "lint-in-place": "for file in */*.re ; do refmt --in-place $file ; done"
+  },
+  "keywords": [
+    "BuckleScript",
+    "Precis",
+    "IDNA"
+  ],
+  "author": "NineFX Inc.",
+  "contributors": [
+    "Justin Baum"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.4.7",
+    "bs-platform": "^5.0.4",
+    "unorm": "^1.5.0"
+  },
+  "dependencies": {
+    "@glennsl/bs-json": "^4.0.0",
+    "buffer": "^5.2.1",
+    "codecov": "^3.5.0"
+  },
+  "jest": {
+    "testRegex": "lib/js/__tests__/*",
+    "testPathIgnorePatterns": [
+      "node_modules",
+      "PrecisI18nTests",
+      "TestUtils*"
+    ],
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
+  }
+}

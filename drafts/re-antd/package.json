@@ -1,0 +1,31 @@
+{
+  "name": "@adiatma/re-antd",
+  "version": "0.1.5",
+  "description": "ReasonML bindings for Ant Design",
+  "main": "src/index.bs.js",
+  "repository": "https://github.com/adiatma/re-antd",
+  "author": "Adiatma Kamarudin <adiatma9024@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "8.3.1",
+    "reason-react": "^0.9.1"
+  },
+  "peerDependencies": {
+    "@ant-design/icons": "^4.2.2",
+    "antd": "^4.7.0"
+  },
+  "scripts": {
+    "start": "bsb -make-world -clean-world -w",
+    "build": "bsb -make-world -clean-world"
+  },
+  "keywords": [
+    "reasonml",
+    "antd",
+    "reason-bindings",
+    "react",
+    "react-reason"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

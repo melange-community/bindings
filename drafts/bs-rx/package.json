@@ -1,0 +1,30 @@
+{
+  "name": "bs-rx",
+  "version": "0.0.2",
+  "description": "Bucklescript bindings for Marble.js in ReasonML",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mistyharsh/bs-rx.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mistyharsh/bs-rx/issues"
+  },
+  "homepage": "https://github.com/mistyharsh/bs-rx#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@glennsl/bs-jest": "^0.4.8",
+    "babel-jest": "^24.5.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "bs-platform": "^4.0.18"
+  },
+  "dependencies": {
+    "rxjs": "^6.4.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "bs-storybook",
+  "namespace": true,
+  "bsc-flags": ["-bs-super-errors"],
+  "version": "0.0.2",
+  "sources": ["src"],
+  "bs-dependencies": ["reason-react"],
+  "package-specs": {
+    "module": "es6",
+    "in-source": true
+  },
+  "reason": { "react-jsx": 3 },
+  "refmt": 3
+}

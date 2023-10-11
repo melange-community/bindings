@@ -1,0 +1,24 @@
+{
+  "name": "bs-react-virtualized-wrapper",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react-virtualized": "^9.18.0",
+    "reason-scripts": "0.8.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "prepare": "npm link bs-platform"
+  },
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.3.3",
+    "bs-jest": "^0.3.2",
+    "jest": "^22.1.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "reason-react": "^0.3.1"
+  }
+}

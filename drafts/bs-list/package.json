@@ -1,0 +1,29 @@
+{
+  "name": "bs-list",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Bucklescript bindings for funkia/list",
+  "author": "ryloric <ryloric@gmail.com>",
+  "repository": "https://github.com/ryloric/bs-list.git",
+  "homepage": "https://github.com/ryloric/bs-list",
+  "bugs": {
+    "url": "https://github.com/ryloric/bs-list/issues"
+  },
+  "scripts": {
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [
+    "BuckleScript",
+    "reason",
+    "immutable list",
+    "funkia/list"
+  ],
+  "devDependencies": {
+    "bs-platform": "^5.0.0"
+  },
+  "dependencies": {
+    "list": "^2.0.18"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "reason-victory",
+  "version": "0.0.1",
+  "description": "ReasonML (reason-react) bindings to Victory ",
+  "homepage": "https://github.com/juusaw/reason-victory",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jusuaw/reason-victory.git"
+  },
+  "author": "juusaw",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "reactjs",
+    "chart",
+    "react-component",
+    "victory"
+  ],
+  "devDependencies": {
+    "bs-platform": "^4.0.7",
+    "reason-react": "^0.5.3"
+  },
+  "peerDependencies": {
+    "reason-react": "^0.5.3"
+  },
+  "dependencies": {
+    "victory": "^32.0.0"
+  },
+  "scripts": {
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "exit 0"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "@tsnobip/reason-lambda",
+  "version": "0.2.0",
+  "description": "Bucklescript bindings for AWS lambda handlers (v1 and v2)",
+  "repository": "git+https://github.com/tsnobip/reason-lambda.git",
+  "keywords": [
+    "aws",
+    "amazon",
+    "lambda",
+    "FaaS",
+    "serverless",
+    "Bucklescript",
+    "bindings",
+    "ocaml",
+    "reasonml",
+    "reason"
+  ],
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w"
+  },
+  "author": "Paul Tsnobiladzé <paul.tsnobiladze@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^7.3.2"
+  },
+  "files": [
+    "bsconfig.json",
+    "src"
+  ]
+}

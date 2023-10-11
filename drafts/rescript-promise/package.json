@@ -1,0 +1,33 @@
+{
+  "name": "@rpominov/rescript-promise",
+  "version": "0.2.1",
+  "description": "Another Promise bindings for ReScript",
+  "scripts": {
+    "build": "rescript",
+    "clean": "rescript clean -with-deps",
+    "start": "rescript build -w",
+    "test": "jest"
+  },
+  "keywords": [
+    "rescript",
+    "promise"
+  ],
+  "contributors": [
+    "Roman Pominov"
+  ],
+  "homepage": "https://github.com/rpominov/rescript-promise#readme",
+  "bugs": "https://github.com/rpominov/rescript-promise/issues",
+  "repository": "github:rpominov/rescript-promise",
+  "license": "MIT",
+  "dependencies": {
+    "rescript": "^9.1.4"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "jest": {
+    "testMatch": [
+      "**/*.test.bs.js"
+    ]
+  }
+}

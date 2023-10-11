@@ -1,0 +1,29 @@
+{
+  "name": "bs-glob",
+  "version": "0.1.1",
+  "description": "BuckleScript bindings to node-glob. Match files using the patterns the shell uses, like stars and stuff.",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "exit 0"
+  },
+  "homepage": "https://github.com/reasonml-community/bs-glob#readme",
+  "bugs": "https://github.com/reasonml-community/bs-glob/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reasonml-community/bs-glob.git"
+  },
+  "author": "glennsl",
+  "keywords": [
+    "bucklescript",
+    "glob"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^1.9.0"
+  },
+  "dependencies": {
+    "glob": "^7.1.2"
+  }
+}

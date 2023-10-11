@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <!--
+  Copyright (c) 2021 John Jackson
+
+  This Source Code Form is subject to the terms of the Mozilla Public
+  License, v. 2.0. If a copy of the MPL was not distributed with this
+  file, You can obtain one at http://mozilla.org/MPL/2.0/.
+  -->
+  <head>
+    <title>ReScript-Blossom benchmarks</title>
+  </head>
+  <body>
+    <h1>ReScript-Blossom benchmarks</h1>
+    <h2>Full benchmark suite</h2>
+    <ul>
+      <li>Step 1: Open your browser's web console.</li>
+      <li>Step 2: <button id="benchmark">Click this button</button></li>
+    </ul>
+    <h2>Simpler benchmark</h2>
+    <ul>
+      <li>Step 1: Open your browser's performance tool.</li>
+      <li>Step 2: <button id="clicky">Click this button</button></li>
+    </ul>
+
+    <script src="../node_modules/lodash/lodash.js"></script>
+    <script src="../node_modules/benchmark/benchmark.js"></script>
+    <script>
+      var module = {}; // Just to get edmonds-blossom to work without a bundler.
+    </script>
+    <script src="../node_modules/edmonds-blossom/app/blossom.js"></script>
+    <script type="module">
+      var jsBlossom = module.exports;
+      import runBenchmark from "../lib/es6_global/__benchmarks__/Benchmarks.js";
+
+      function benchmark(event) {
+        event.preventDefault();
+        var suite = Benchmark.Suite("ReScript-Blossom vs JS Blossom");
+        runBenchmark(suite, jsBlossom);
+      }
+
+      document.querySelector("#benchmark").onclick = benchmark;
+
+      import basicTest from "../lib/es6_global/__benchmarks__/BenchData.js";
+
+      function clicky(event) {
+        event.preventDefault();
+        var profileName = "Blossom " + Date.now().toString();
+        console.profile(profileName);
+        for (var i = 0; i < 100; i++) {
+          basicTest();
+        }
+        /* setTimeout fixes a profileEnd bug */
+        /* https://developer.mozilla.org/en-US/docs/Web/API/Console/profileEnd */
+        window.setTimeout(() => console.profileEnd(profileName), 5);
+      }
+
+      document.querySelector("#clicky").onclick = clicky;
+    </script>
+  </body>
+</html>

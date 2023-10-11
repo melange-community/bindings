@@ -1,0 +1,30 @@
+{
+  "name": "rescript-heroicons",
+  "version": "0.0.2",
+  "description": "ReScript binding to Heroicons",
+  "author": "Nyi Nyi Than <nyinyithann@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nyinyithann/rescript-heroicons.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "rescript",
+    "heroicons",
+    "tailwindCSS",
+    "tailwind"
+  ],
+  "devDependencies": {
+    "@heroicons/react": "^1.0.1",
+    "@rescript/react": "^0.10.3",
+    "rescript": "^9.1.2"
+  },
+  "scripts": {
+    "build": "rescript",
+    "clean": "rescript clean",
+    "watch": "rescript build -w",
+    "iv": "npm --no-git-tag-version version patch",
+    "verdaccio-publish": "npm run iv & npm publish --registry http://localhost:4873",
+    "verdaccio-unpublish": "npm unpublish --force --registry http://localhost:4873/  rescript-heroicons"
+  }
+}

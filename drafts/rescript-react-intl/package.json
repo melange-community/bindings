@@ -1,0 +1,50 @@
+{
+  "name": "rescript-react-intl",
+  "version": "3.0.0",
+  "description": "ReScript bindings to react-intl",
+  "author": "Christoph Knittel <ck@cca.io>",
+  "contributors": [
+    "Alex Fedoseev <alex.fedoseev@gmail.com>"
+  ],
+  "license": "MIT",
+  "main": "src/ReactIntl.bs.js",
+  "scripts": {
+    "start": "parcel examples/index.html",
+    "build": "rescript build -with-deps",
+    "watch": "rescript build -with-deps -w",
+    "clean": "rescript clean -with-deps",
+    "extract": "node examples/extractor",
+    "preextract": "yarn run build",
+    "format": "yarn rescript format",
+    "test": "exit 0",
+    "preversion": "yarn run clean"
+  },
+  "peerDependencies": {
+    "@rescript/react": ">=0.10.0",
+    "react-intl": ">=4.0.0",
+    "rescript": ">=9.1.0"
+  },
+  "devDependencies": {
+    "@rescript/react": "^0.10.3",
+    "bs-react-intl-extractor-bin": "0.10.0",
+    "bsb-js": "^1.1.7",
+    "parcel-bundler": "1.12.5",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-intl": "4.5.3",
+    "rescript": "^9.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cca-io/rescript-react-intl"
+  },
+  "files": [
+    "src",
+    "bsconfig.json"
+  ],
+  "keywords": [
+    "react",
+    "react-intl",
+    "rescript"
+  ]
+}

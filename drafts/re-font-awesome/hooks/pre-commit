@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -ex
+yarn lint-staged
+yarn re:clean
+yarn re:build

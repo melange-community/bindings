@@ -1,0 +1,28 @@
+{
+  "name": "reason-gatsby",
+  "version": "0.1.8",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^7.1.0",
+    "reason-react": "^0.8.0"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.0.0",
+    "reason-react": "^0.8.0"
+  },
+  "dependencies": {
+    "@babel/preset-typescript": "^7.8.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

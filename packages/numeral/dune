@@ -1,0 +1,6 @@
+(library
+ (name numeral)
+ (libraries melange.js)
+ (modes melange)
+ (preprocess
+  (pps melange.ppx)))

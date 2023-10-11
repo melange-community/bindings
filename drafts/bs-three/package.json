@@ -1,0 +1,28 @@
+{
+  "name": "bs-three",
+  "version": "0.2.0",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "watch": "bsb -make-world -w",
+    "build": "webpack -p -w",
+    "dev": "webpack-dev-server --open"
+  },
+  "keywords": [
+    "BuckleScript",
+    "Three.js",
+    "ReasonML"
+  ],
+  "author": "digitake@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^4.0.17",
+    "webpack": "^4.28.1",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "bs-promise-monad": "^0.3.1",
+    "bs-webapi": "^0.11.0",
+    "three": "^0.95.0"
+  }
+}

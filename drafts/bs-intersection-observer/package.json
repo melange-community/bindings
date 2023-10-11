@@ -1,0 +1,25 @@
+{
+    "name": "bs-intersection-observer",
+    "version": "0.2.0",
+    "repository": {
+        "url": "https://github.com/JulesGuesnon/bs-intersection-observer"
+    },
+    "description": "This package contains the bindings for the IntersectionObserver api",
+    "scripts": {
+        "build": "bsb -make-world",
+        "start": "bsb -make-world -w",
+        "clean": "bsb -clean-world",
+        "prepublish": "bsb -make-world"
+    },
+    "keywords": [
+        "BuckleScript",
+        "IntersectionObserver",
+        "ReasonML",
+        "Reason"
+    ],
+    "author": "Jules Guesnon <hello@julesgueson.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "bs-platform": "^5.0.6"
+    }
+}

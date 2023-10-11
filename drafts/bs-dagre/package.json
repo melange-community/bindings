@@ -1,0 +1,36 @@
+{
+  "name": "@arnau/bs-dagre",
+  "version": "0.4.3",
+  "author": "Arnau Siches <asiches@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "$npm_execpath build && jest --coverage",
+    "format": "bsrefmt"
+  },
+  "files": [
+    "src/",
+    "bsconfig.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnau/bs-dagre.git"
+  },
+  "keywords": [
+    "reason",
+    "bucklescript",
+    "dagre",
+    "graph",
+    "layout"
+  ],
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.7.0",
+    "bs-platform": "9.0.2"
+  },
+  "dependencies": {
+    "dagre": "^0.8.5"
+  }
+}

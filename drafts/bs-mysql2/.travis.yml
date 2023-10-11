@@ -1,0 +1,17 @@
+
+language: node_js
+node_js:
+  - 8
+  - 10
+  - 12
+cache: yarn
+services:
+  - mysql
+before_install:
+  - mysql -e "create user ''@'localhost';"
+  - mysql -e 'CREATE DATABASE IF NOT EXISTS test;'
+before_script:
+  - yarn clean
+  - yarn build
+after_success:
+  - yarn coverage

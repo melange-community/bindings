@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>CronJob (rescript-cron.RescriptCron.RescriptCron.CronJob)</title>
+    <link rel="stylesheet" href="../odoc.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <script src="../highlight.pack.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+  </head>
+  <body>
+    <div class="content">
+      <header>
+        <nav><a href="../">RescriptCron</a> &#x00BB; CronJob</nav>
+        <h1>Module <code>RescriptCron.CronJob</code></h1>
+        <p>Module for creating new cron jobs</p>
+      </header>
+      <dl>
+        <dt class="spec type" id="type-t">
+          <a href="#type-t" class="anchor"></a
+          ><code><span class="keyword">type </span>t</code>
+        </dt>
+      </dl>
+      <dl>
+        <dt class="spec value" id="val-make">
+          <a href="#val-make" class="anchor"></a
+          ><code
+            ><span class="keyword">val </span>make : [ `CronString of
+            string<span class="keyword"> | </span>`JsDate of Js.Date.t ]
+            <span>&#45;&gt;</span> ((unit <span>&#45;&gt;</span> unit)
+            <span>&#45;&gt;</span> unit)
+            <span>&#45;&gt;</span> ?&#8288;onComplete:(unit
+            <span>&#45;&gt;</span> unit)
+            <span>&#45;&gt;</span> ?&#8288;start:bool
+            <span>&#45;&gt;</span> ?&#8288;timezone:string
+            <span>&#45;&gt;</span> ?&#8288;context:&lt; .. &gt; Js.t
+            <span>&#45;&gt;</span> ?&#8288;runOnInit:bool
+            <span>&#45;&gt;</span> ?&#8288;utcOffset:int
+            <span>&#45;&gt;</span> ?&#8288;unrefTimeout:bool
+            <span>&#45;&gt;</span> unit <span>&#45;&gt;</span>
+            <a href="#type-t">t</a></code
+          >
+        </dt>
+        <dd>
+          <p>
+            <code>make(cronTime, onTickFunction)</code> returns a cron job that
+            when started will run on the schedule specified by the cron time.
+          </p>
+          <dl>
+            <dt>parameter cronTime</dt>
+            <dd>
+              <p>
+                The syntax of <code>cronTime</code> can be in cron format (e.g.
+                <code>2 * * * * * *</code>) or as a
+                <span
+                  class="xref-unresolved"
+                  title='unresolved reference to "Js.Date.t"'
+                  ><span
+                    class="xref-unresolved"
+                    title='unresolved reference to "Js.Date"'
+                    ><code>Js</code>.Date</span
+                  >.t</span
+                >.
+              </p>
+            </dd>
+          </dl>
+          <dl>
+            <dt>parameter onTick</dt>
+            <dd>
+              <p>
+                The function that will be run for every job execution (specified
+                by the cron time). It will be passed the function given as
+                <code>onComplete</code> parameter as it's parameter.
+              </p>
+            </dd>
+          </dl>
+          <dl>
+            <dt>parameter onComplete</dt>
+            <dd>
+              <p>
+                A function that will fire when the job is stopped with
+                <a href="..#val-stop"><code>stop</code></a
+                >, and may also be called by <code>onTick</code> at the end of
+                each run (it is passed to <code>onTick</code>).
+              </p>
+            </dd>
+          </dl>
+          <dl>
+            <dt>parameter start</dt>
+            <dd>
+              <p>
+                Specifies whether to start the job just before exiting the
+                constructor. By default this is set to false. If left at default
+                you will need to call
+                <a href="..#val-start"><code>start</code></a> in order to start
+                the job (assuming job is the variable you set the cronjob to).
+                This does not immediately fire your
+                <code>onTick</code> function, it just gives you more control
+                over the behavior of your jobs.
+              </p>
+            </dd>
+          </dl>
+          <dl>
+            <dt>parameter timezone</dt>
+            <dd>
+              <p>
+                Specify the timezone for the execution. This will modify the
+                actual time relative to your timezone. If the timezone is
+                invalid, an error is thrown. You can check all timezones
+                available at
+                <a href="http://momentjs.com/timezone/"
+                  >Moment Timezone website</a
+                >. Probably don't use both <code>timezone</code> and
+                <code>utcOffset</code> together or weird things may happen.
+              </p>
+            </dd>
+          </dl>
+          <dl>
+            <dt>parameter context</dt>
+            <dd>
+              <p>
+                The context within which to execute the
+                <code>onTick</code> method. This defaults to the cronjob itself
+                allowing you to call <code>this.stop()</code> (this is for JS,
+                uncertain how this is in ReasonML/OCaml). However, if you change
+                this you'll have access to the functions and values within your
+                context object.
+              </p>
+            </dd>
+          </dl>
+          <dl>
+            <dt>parameter runOnInit</dt>
+            <dd>
+              <p>
+                This will immediately fire your <code>onTick</code> function as
+                soon as the requisite initialization has happened. This option
+                is set to <code>false</code> by default for backwards
+                compatibility.
+              </p>
+            </dd>
+          </dl>
+          <dl>
+            <dt>parameter utcOffset</dt>
+            <dd>
+              <p>
+                Set an UTC offset for your timezone instead of using the
+                <code>timezone</code> parameter. This is for a Moment-object, so
+                see
+                <a href="https://momentjs.com/docs/#/manipulating/utc-offset/"
+                  >Moment-documentation</a
+                >
+                for more info. Do not use <code>utcOffset</code> and
+                <code>timezone</code> parameter together.
+              </p>
+            </dd>
+          </dl>
+          <dl>
+            <dt>parameter unrefTimeout</dt>
+            <dd>
+              <p>
+                If you have code that keeps the event loop running and want to
+                stop the node process when that finishes regardless of the state
+                of your cronjob, you can do so making use of this parameter.
+                This is off by default and cron will run as if it needs to
+                control the event loop. For more information take a look at
+                <a
+                  href="https://nodejs.org/api/timers.html#timers_timeout_unref"
+                  >timers#timers_timeout_unref</a
+                >
+                from the NodeJS docs.
+              </p>
+            </dd>
+          </dl>
+        </dd>
+      </dl>
+    </div>
+  </body>
+</html>

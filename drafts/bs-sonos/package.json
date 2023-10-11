@@ -1,0 +1,32 @@
+{
+  "name": "bs-sonos",
+  "version": "3.0.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "BS_WATCH_CLEAR=true bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "is-ci \"test:ci\" \"test:watch\"",
+    "test:ci": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@glennsl/bs-jest": "0.4.9",
+    "@semantic-release/changelog": "3.0.6",
+    "@semantic-release/commit-analyzer": "6.3.3",
+    "@semantic-release/git": "7.0.18",
+    "@semantic-release/npm": "5.3.4",
+    "@semantic-release/release-notes-generator": "7.3.5",
+    "bs-platform": "7.0.1",
+    "is-ci-cli": "2.0.0"
+  },
+  "dependencies": {
+    "@ryb73/decco": "0.2.2",
+    "decco": "^1.1.1",
+    "sonos": "1.12.5"
+  }
+}

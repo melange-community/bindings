@@ -1,0 +1,30 @@
+{
+  "name": "bs-react-transition-group",
+  "homepage": "https://github.com/briansunter/bs-react-transition-group",
+  "version": "0.1.15",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w"
+  },
+  "keywords": [
+    "BuckleScript",
+    "React",
+    "Animation",
+    "ReasonML"
+  ],
+  "author": "Brian Sunter",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^4.0.5"
+  },
+  "dependencies": {
+    "react": "16.5.0",
+    "react-dom": "16.5.0",
+    "react-transition-group": "^2.4.0",
+    "reason-react": "0.5.3"
+  },
+  "peerDependencies": {
+    "reason-react": ">=0.4.1"
+  }
+}

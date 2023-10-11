@@ -1,0 +1,39 @@
+{
+  "name": "@tatchi/bs-react-virtual",
+  "version": "0.1.0",
+  "description": "BuckleScript bindings for react-virtual",
+  "files": [
+    "src/",
+    "bsconfig.json"
+  ],
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tatchi/bs-react-virtual.git"
+  },
+  "keywords": [
+    "reason",
+    "bucklescript",
+    "react-virtual"
+  ],
+  "author": "Corentin Leruth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tatchi/bs-react-virtual/issues"
+  },
+  "homepage": "https://github.com/tatchi/bs-react-virtual#readme",
+  "devDependencies": {
+    "bs-platform": "^7.3.0",
+    "react-virtual": "^2.1.10",
+    "reason-react": "^0.8.0"
+  },
+  "peerDependencies": {
+    "react-virtual": "^2.1.10",
+    "reason-react": ">=0.7.0",
+    "bs-platform": ">=7.3.0"
+  }
+}

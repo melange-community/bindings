@@ -1,0 +1,11 @@
+{
+  "name": "bs-elm",
+  "version": "3.0.0",
+  "refmt": 3,
+  "suffix": ".bs.js",
+  "sources": "src",
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": false
+  }
+}

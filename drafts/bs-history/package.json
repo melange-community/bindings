@@ -1,0 +1,29 @@
+{
+  "name": "bs-history",
+  "version": "0.0.1",
+  "description": "BuckleScript bindings for History",
+  "main": "index.js",
+  "author": "Jiayu Liu <jiayu@madadata.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reasonml-community/bs-history.git"
+  },
+  "homepage": "https://github.com/reasonml-community/bs-history#readme",
+  "bugs": "https://github.com/reasonml-community/bs-history/issues",
+  "keywords": [
+    "bucklescript",
+    "history",
+    "location"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "exit 0"
+  },
+  "devDependencies": {
+    "bs-platform": "^1.9.0",
+    "history": "^4.6.1"
+  }
+}

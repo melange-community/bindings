@@ -1,0 +1,19 @@
+{
+  "name": "@yawaramin/re-hyperapp",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "parcel build index.html",
+    "serve": "parcel serve index.html"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "hyperapp": "^1.2.9"
+  },
+  "peerDependencies": {
+    "bs-platform": "^4.0.14"
+  }
+}

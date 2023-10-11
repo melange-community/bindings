@@ -1,0 +1,26 @@
+{
+  "name": "website",
+  "namespace": true,
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "package-specs": [
+    {
+      "module": "es6",
+      "in-source": true
+    }
+  ],
+  "bsc-flags": [],
+  "ppx-flags": [],
+  "jsx": {
+    "version": 4,
+    "mode": "automatic"
+  },
+  "suffix": ".js",
+  "bs-dependencies": [
+    "@rescript/react"
+  ]
+}

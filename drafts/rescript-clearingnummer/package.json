@@ -1,0 +1,42 @@
+{
+  "name": "@opendevtools/rescript-clearingnummer",
+  "version": "1.1.1",
+  "description": "Clearing numbers for Swedish banks",
+  "author": "Rickard Natt och Dag <rickard@nattochdag.dev> (http://willcodefor.beer/)",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "rescript build",
+    "start": "BS_WATCH_CLEAR=true rescript build -w",
+    "clean": "rescript clean -with-deps",
+    "test": "is-ci-cli test:ci test:watch",
+    "test:ci": "npm run build && jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "bucklescript",
+    "rescript",
+    "clearing",
+    "number",
+    "swedish",
+    "banks",
+    "bank",
+    "clearingnummer",
+    "svensk bank"
+  ],
+  "homepage": "https://github.com/opendevtools/rescript-clearingnummer#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/opendevtools/rescript-clearingnummer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/opendevtools/rescript-clearingnummer/issues"
+  },
+  "devDependencies": {
+    "@glennsl/bs-jest": "0.7.0",
+    "is-ci-cli": "2.2.0",
+    "rescript": "9.1.3"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "@rescript-ink/ink-spinner",
+  "namespace": false,
+  "reason": {
+    "react-jsx": 3
+  },
+  "suffix": ".bs.js",
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": true
+    }
+  ],
+  "bs-dependencies": [
+    "@rescript/react"
+  ],
+  "bs-dev-dependencies": [
+  ]
+}

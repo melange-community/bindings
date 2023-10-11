@@ -1,0 +1,60 @@
+{
+  "name": "@rescript-react-native/fetch-blob",
+  "description": "ReScript bindings for rn-fetch-blob.",
+  "version": "0.12.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "rn-fetch-blob": ">=0.12.0"
+  },
+  "overrides": {
+    "react": "17.0.2"
+  },
+  "repository": "https://github.com/rescript-react-native/fetch-blob.git",
+  "funding": "https://github.com/rescript-react-native/rescript-react-native?sponsor=1",
+  "license": "MIT",
+  "keywords": [
+    "rescript",
+    "react-native"
+  ],
+  "files": [
+    "*.md",
+    "bsconfig.json",
+    "src/**/*.res",
+    "src/**/*.resi",
+    "src/**/*.js",
+    "!src/**/*.bs.js"
+  ],
+  "scripts": {
+    "format:most": "prettier --write \"**/*.{md,json,js,css}\"",
+    "format:res": "rescript format -all",
+    "format": "npm run format:most && npm run format:res",
+    "re:start": "rescript build -w",
+    "re:build": "rescript",
+    "re:clean-build": "rescript clean && rescript",
+    "start": "npm run re:start",
+    "build": "npm run re:build",
+    "test": "npm run re:clean-build",
+    "release": "npmpub"
+  },
+  "devDependencies": {
+    "rescript": "^10.0.0",
+    "husky": "^4.0.0",
+    "lint-staged": "^10.0.0",
+    "npmpub": "^5.0.0",
+    "prettier": "^2.0.0"
+  },
+  "prettier": {
+    "trailingComma": "all"
+  },
+  "lint-staged": {
+    "*.{md,json,js,css}": "prettier --write",
+    "*.{res,resi}": "rescript format"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}

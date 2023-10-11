@@ -1,0 +1,43 @@
+{
+  "name": "rescript-mocha",
+  "version": "0.9.0",
+  "description": "ReScript bindings for mocha",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/TheSpyder/rescript-mocha.git"
+  },
+  "homepage": "https://github.com/TheSpyder/rescript-mocha",
+  "bugs": "https://github.com/TheSpyder/rescript-mocha/issues",
+  "scripts": {
+    "clean": "rescript clean",
+    "build": "rescript",
+    "watch": "rescript build -w",
+    "start": "rescript build -w",
+    "test": "rescript && mocha",
+    "prepublishOnly": "yarn clean && yarn test"
+  },
+  "mocha": {
+    "recursive": true,
+    "reporter": "progress",
+    "spec": [
+      "test"
+    ]
+  },
+  "keywords": [
+    "BuckleScript",
+    "reason",
+    "ReScript"
+  ],
+  "author": "Andrew Herron",
+  "contributors": [
+    "Hongbo Zhang",
+    "Risto Stevcev"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "rescript": "^9.1.4"
+  },
+  "dependencies": {
+    "mocha": "^9.2.2"
+  }
+}

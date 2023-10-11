@@ -1,0 +1,18 @@
+{
+  "name": "bs-glamor",
+  "refmt": 3,
+  "bs-dev-dependencies": [
+    "bs-jest"
+  ],
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": [
+        {
+          "dir": "__tests__",
+          "type": "dev"
+        }
+      ]
+    }
+  ]
+}

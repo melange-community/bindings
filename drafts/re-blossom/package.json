@@ -1,0 +1,57 @@
+{
+  "name": "re-blossom",
+  "version": "1.1.0",
+  "description": "A Reason implementation of the blossom maximum-matching algorithm",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "pretest": "npm run build",
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "bench": "npm run build && node ./lib/js/__benchmarks__/Node.bs.js",
+    "browser": "serve .",
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags",
+    "docs": "bsb -make-world && bsdoc build Blossom"
+  },
+  "keywords": [
+    "BuckleScript",
+    "Reason",
+    "ReasonML",
+    "Maximum Weighted Matching",
+    "Maximum Matching",
+    "Matching",
+    "Blossom algorithm"
+  ],
+  "homepage": "https://johnridesa.bike/re-blossom/",
+  "author": {
+    "name": "John Jackson",
+    "email": "johnbicyclejackson@icloud.com",
+    "url": "https://johnridesa.bike/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnridesabike/re-blossom.git"
+  },
+  "bugs": {
+    "url": "https://github.com/johnridesabike/re-blossom/issues",
+    "email": "johnbicyclejackson@icloud.com"
+  },
+  "license": "MIT",
+  "files": [
+    "src/**/*.re",
+    "src/**/*.rei",
+    "bsconfig.json"
+  ],
+  "peerDependencies": {},
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.7.0",
+    "benchmark": "^2.1.4",
+    "bs-platform": "^8.0.2",
+    "bsdoc": "^6.0.2-alpha",
+    "edmonds-blossom": "^1.0.0",
+    "serve": "^11.3.2"
+  },
+  "dependencies": {}
+}

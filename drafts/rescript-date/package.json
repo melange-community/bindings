@@ -1,0 +1,41 @@
+{
+  "name": "@mobily/rescript-date",
+  "description": "📆 Date manipulation in ReScript.",
+  "version": "2.1.0",
+  "scripts": {
+    "test": "yarn jest --coverage",
+    "re:clean": "yarn rescript clean",
+    "re:build": "yarn rescript build",
+    "re:dev": "yarn rescript build -w",
+    "generate:contributors": "yarn all-contributors generate"
+  },
+  "license": "MIT",
+  "keywords": [
+    "rescript",
+    "date",
+    "time",
+    "datetime"
+  ],
+  "files": [
+    "src/!(*.bs.js)",
+    "*.md",
+    "bsconfig.json",
+    "package.json"
+  ],
+  "author": "Marcin Dziewulski <hello@mobily.pl>",
+  "homepage": "https://github.com/mobily/rescript-date#readme",
+  "bugs": "https://github.com/mobily/rescript-date/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mobily/rescript-date.git"
+  },
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.7.0",
+    "all-contributors-cli": "^6.20.0",
+    "coveralls": "^3.1.1",
+    "rescript": "^9.1.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

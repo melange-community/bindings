@@ -1,0 +1,33 @@
+{
+  "name": "bs-discord.js",
+  "version": "0.1.0",
+  "description": "BuckleScript bindings for discord.js",
+  "main": "index.js",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BuckleTypes/bs-discord.js.git"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "bucklescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BuckleTypes/bs-discord.js/issues"
+  },
+  "homepage": "https://github.com/BuckleTypes/bs-discord.js#readme",
+  "dependencies": {
+    "discord.js": "^11.0.0"
+  },
+  "devDependencies": {
+    "bs-platform": "^1.9.0"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "name": "bs-glob",
+  "bsc-flags": ["-bs-super-errors"],
+  "sources": ["src"]
+}

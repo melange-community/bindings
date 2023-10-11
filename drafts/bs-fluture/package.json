@@ -1,0 +1,33 @@
+{
+  "name": "bucklescript-fluture",
+  "version": "0.1.1",
+  "description": "BuckleScript bindings for fluture-js/Fluture",
+  "author": "ryloric <ryloric@gmail.com>",
+  "repository": "https://github.com/ryloric/bucklescript-fluture.git",
+  "homepage": "https://github.com/ryloric/bucklescript-fluture",
+  "bugs": {
+    "url": "https://github.com/ryloric/bucklescript-fluture/issues"
+  },
+  "scripts": {
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "fluture",
+    "bucklescript",
+    "reason"
+  ],
+  "dependencies": {
+    "fluture": "^11.0.1"
+  },
+  "files": [
+    "src",
+    "bsconfig.json"
+  ],
+  "devDependencies": {
+    "bs-platform": "^5.0.0"
+  }
+}

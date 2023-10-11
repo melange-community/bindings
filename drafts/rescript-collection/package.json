@@ -1,0 +1,15 @@
+{
+  "name": "@rescript-collection/project",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "examples/*",
+    "benchmark",
+    "website"
+  ],
+  "devDependencies": {
+    "@changesets/cli": "^2.26.0"
+  },
+  "packageManager": "yarn@3.3.0"
+}

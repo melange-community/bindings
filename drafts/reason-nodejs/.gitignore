@@ -1,0 +1,12 @@
+.DS_Store
+.merlin
+.bsb.lock
+npm-debug.log
+/lib/bs/
+/node_modules/
+bsb
+*.bs.js
+package-lock.json
+
+src/ScratchRe.re
+src/ScratchMl.ml

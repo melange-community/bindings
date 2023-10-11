@@ -1,0 +1,38 @@
+{
+  "name": "bs-react-pdf",
+  "version": "0.0.13",
+  "description": "react-pdf bindings for bucklescript",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "bsb -clean-world -make-world",
+    "watch": "bsb -clean-world -make-world -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meafmira/bs-react-pdf.git"
+  },
+  "keywords": [
+    "bucklescript",
+    "bsb",
+    "reason",
+    "reasonml",
+    "ocaml",
+    "bs-react-pdf",
+    "bs-platform",
+    "react-pdf"
+  ],
+  "author": "meafmira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meafmira/bs-react-pdf/issues"
+  },
+  "homepage": "https://github.com/meafmira/bs-react-pdf#readme",
+  "dependencies": {
+    "@react-pdf/core": "^0.5.1",
+    "@react-pdf/node": "^0.5.1",
+    "reason-react": "^0.2.4"
+  },
+  "devDependencies": {
+    "bs-platform": "^2.0.0"
+  }
+}

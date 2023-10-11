@@ -1,0 +1,35 @@
+{
+  "name": "rescript-rmwc",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "rescript build",
+    "clean": "rescript clean",
+    "start": "rescript build -w"
+  },
+  "keywords": [
+    "rescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "gentype": "^4.1.0",
+    "rescript": "^9.1.4"
+  },
+  "dependencies": {
+    "@rescript/react": "^0.10.1",
+    "@rmwc/avatar": "^6.1.4",
+    "@rmwc/base": "^6.1.4",
+    "@rmwc/button": "^6.1.4",
+    "@rmwc/card": "^6.1.4",
+    "@rmwc/circular-progress": "^6.1.4",
+    "@rmwc/dialog": "^6.1.4",
+    "@rmwc/icon": "^6.1.4",
+    "@rmwc/icon-button": "^6.1.4",
+    "@rmwc/linear-progress": "^6.1.4",
+    "@rmwc/ripple": "^6.1.4",
+    "@rmwc/textfield": "^6.1.4",
+    "@rmwc/theme": "^6.1.4",
+    "@rmwc/tooltip": "^6.1.4",
+    "@rmwc/typography": "^6.1.4"
+  }
+}

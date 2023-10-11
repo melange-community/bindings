@@ -1,0 +1,17 @@
+{
+  "name": "bs-cookie-parser",
+  "bsc-flags": [
+    "-bs-super-errors"
+  ],
+  "refmt": 3,
+  "sources": [
+    "src",
+    {
+      "dir": "example",
+      "type": "dev"
+    }
+  ],
+  "bs-dependencies": [
+    "bs-express"
+  ]
+}

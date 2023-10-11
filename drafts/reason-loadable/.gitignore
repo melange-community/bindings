@@ -1,0 +1,9 @@
+.idea
+.merlin
+.cache
+.bsb.lock
+node_modules
+coverage
+flow-typed
+lib
+dist

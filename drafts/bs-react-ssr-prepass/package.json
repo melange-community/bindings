@@ -1,0 +1,30 @@
+{
+  "name": "bs-react-ssr-prepass",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [
+    "BuckleScript",
+    "Reason",
+    "ReasonML",
+    "reason-urql",
+    "GraphQL",
+    "Server-side Rendering",
+    "SSR"
+  ],
+  "author": "Parker Ziegler",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^5.0.6",
+    "reason-react": "^0.7.0"
+  },
+  "dependencies": {
+    "react-ssr-prepass": "^1.0.7"
+  },
+  "peerDependencies": {
+    "reason-react": "^0.7.0"
+  }
+}

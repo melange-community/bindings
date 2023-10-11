@@ -1,0 +1,48 @@
+{
+  "name": "bs-react-flatpickr",
+  "files": [
+    "/src",
+    "/bsconfig.json"
+  ],
+  "keywords": [
+    "bucklescript",
+    "reason",
+    "ocaml",
+    "react-flatpickr"
+  ],
+  "homepage": "https://github.com/cloverinteractive/bs-react-flatpickr",
+  "repository": "https://github.com/cloverinteractive/bs-react-flatpickr",
+  "bugs": "https://github.com/cloverinteractive/bs-react-flatpickr/issues",
+  "author": "Enrique Vidal <enrique@cloverinteractive.com>",
+  "main": "./src/Flatpickr.re",
+  "version": "0.1.3",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "storybook": "start-storybook"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-knobs": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addon-notes": "^5.3.19",
+    "@storybook/react": "^5.3.19",
+    "babel-loader": "^8.1.0",
+    "bs-platform": "^8.2.0",
+    "bs-storybook": "https://github.com/draftbit/bs-storybook.git",
+    "date-fns": "^2.15.0",
+    "react-flatpickr": "^3.10.6",
+    "reason-date-fns": "^0.11.0",
+    "reason-react": "^0.9.1"
+  },
+  "peerDependenciesdependencies": {
+    "date-fns": "^2.15.0",
+    "react-flatpickr": "^3.10.6",
+    "reason-react": "^0.8.0"
+  },
+  "dependencies": {
+    "react-flatpickr": "^3.10.6"
+  }
+}

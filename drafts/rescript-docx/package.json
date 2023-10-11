@@ -1,0 +1,26 @@
+{
+  "name": "rescript-docx",
+  "description": "ReScript bindings for the docx.js lib",
+  "version": "0.1.3",
+  "scripts": {
+    "clean": "rescript clean",
+    "build": "rescript build",
+    "watch": "rescript build -w"
+  },
+  "keywords": [
+    "rescript",
+    "docx",
+    "rescript-bindings",
+    "rescript-wrapper"
+  ],
+  "author": "Emile Rolley <emile.rolley@tuta.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "file-saver": "^2.0.5",
+    "rescript": "^10.1.4",
+    "rescript-nodejs": "^15.0.0"
+  },
+  "dependencies": {
+    "docx": "^8.2.2"
+  }
+}

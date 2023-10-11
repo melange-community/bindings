@@ -1,0 +1,8 @@
+.cache
+.DS_Store
+*.swp
+.merlin
+.parcel-cache
+dist/
+lib/
+node_modules/

@@ -1,0 +1,17 @@
+{
+  "name": "rescript-clean-deep-demo",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "rescript build",
+    "start": "rescript build -w",
+    "clean": "rescript clean",
+    "demo": "node src/Demo.bs.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "rescript": "10.1.4"
+  },
+  "dependencies": {
+    "rescript-clean-deep": "2.0.0"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "@opendevtools/rescript-telefonnummer",
+  "version": "3.0.0",
+  "description": "Phone number formatter for Swedish phone numbers",
+  "author": "Rickard Natt och Dag <rickard@hey.com> (http://willcodefor.beer/)",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "rescript build",
+    "start": "BS_WATCH_CLEAR=true rescript build -w",
+    "clean": "rescript clean -with-deps",
+    "test": "is-ci-cli test:ci test:watch",
+    "test:ci": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "bucklescript",
+    "rescript",
+    "phone number",
+    "telefonnummer"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@glennsl/bs-jest": "0.7.0",
+    "is-ci-cli": "2.2.0",
+    "rescript": "9.1.3"
+  },
+  "bugs": {
+    "url": "https://github.com/opendevtools/rescript-telefonnummer/issues"
+  },
+  "homepage": "https://github.com/opendevtools/rescript-telefonnummer#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/opendevtools/rescript-telefonnummer.git"
+  }
+}

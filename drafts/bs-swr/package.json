@@ -1,0 +1,30 @@
+{
+  "name": "@roddynpm/bs-swr",
+  "version": "0.3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roddyyaga/bs-swr.git"
+  },
+  "scripts": {
+    "prepare": "npm run clean && bsb -make-world",
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [
+    "BuckleScript",
+    "ReasonML",
+    "OCaml"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roddyyaga/bs-swr/issues"
+  },
+  "homepage": "https://github.com/roddyyaga/bs-swr#readme",
+  "devDependencies": {
+    "bs-platform": "^7.0.0"
+  },
+  "dependencies": {
+    "swr": ">=0.2.1"
+  }
+}

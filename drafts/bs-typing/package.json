@@ -1,0 +1,31 @@
+{
+  "name": "bs-typing",
+  "version": "1.0.2",
+  "description": "BuckleScript bindings for Typed.js library",
+  "main": "lib/es6_global/src/Typing.js",
+  "repository": "git@github.com:arecvlohe/bs-typing.git",
+  "author": "Adam Recvlohe <adam.recvlohe@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "reason",
+    "bucklescript",
+    "typing",
+    "animation"
+  ],
+  "scripts": {
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "compile": "webpack",
+    "make": "yarn clean && yarn build && yarn compile",
+    "prepublish": "yarn clean && yarn build"
+  },
+  "peerDependencies": {
+    "typed.js": "2.0.10"
+  },
+  "devDependencies": {
+    "bs-platform": "5.0.4",
+    "webpack": "4.31.0",
+    "webpack-cli": "3.3.2"
+  }
+}

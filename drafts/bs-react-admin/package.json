@@ -1,0 +1,46 @@
+{
+  "name": "@ctbucha/bs-react-admin",
+  "version": "0.0.8",
+  "description": "BuckleScript bindings for react-admin",
+  "main": "index.js",
+  "scripts": {
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctbucha/bs-react-admin.git"
+  },
+  "keywords": [
+    "react-admin",
+    "bucklescript",
+    "reasonml",
+    "react",
+    "ui",
+    "binding",
+    "component",
+    "components"
+  ],
+  "author": "ctbucha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ctbucha/bs-react-admin/issues"
+  },
+  "homepage": "https://github.com/ctbucha/bs-react-admin#readme",
+  "devDependencies": {
+    "bs-platform": "^4.0.5"
+  },
+  "dependencies": {
+    "bs-fetch": "^0.3.0",
+    "ra-data-json-server": "^2.2.2",
+    "react": "^16.4.2",
+    "react-admin": "^2.2.2",
+    "react-dom": "^16.4.2",
+    "reason-react": "^0.5.3"
+  },
+  "peerDependencies": {
+    "reason-react": "^0.5.3"
+  }
+}

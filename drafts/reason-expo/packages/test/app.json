@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "new-template",
+    "description": "A basic ReasonExpo app.",
+    "slug": "new-template",
+    "privacy": "public",
+    "sdkVersion": "37.0.1",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "packagerOpts": {
+      "config": "./rn-cli.config.js"
+    }
+  }
+}

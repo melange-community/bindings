@@ -1,0 +1,25 @@
+type t;;
+
+external coy: t = "coy" [@@bs.module "react-syntax-highlighter/dist/esm/styles/prism"];;
+external dark: t = "dark" [@@bs.module "react-syntax-highlighter/dist/esm/styles/prism"];;
+external funky: t = "funky" [@@bs.module "react-syntax-highlighter/dist/esm/styles/prism"];;
+external okaidia: t = "okaidia" [@@bs.module "react-syntax-highlighter/dist/esm/styles/prism"];;
+external solarizedlight: t = "solarizedlight" [@@bs.module "react-syntax-highlighter/dist/esm/styles/prism"];;
+external tomorrow: t = "tomorrow" [@@bs.module "react-syntax-highlighter/dist/esm/styles/prism"];;
+external twilight: t = "twilight" [@@bs.module "react-syntax-highlighter/dist/esm/styles/prism"];;
+external prism: t = "prism" [@@bs.module "react-syntax-highlighter/dist/esm/styles/prism"];;
+external atomDark: t = "atomDark" [@@bs.module "react-syntax-highlighter/dist/esm/styles/prism"];;
+external base16AteliersulphurpoolLight: t = "base16AteliersulphurpoolLight" [@@bs.module "react-syntax-highlighter/dist/esm/styles/prism"];;
+external cb: t = "cb" [@@bs.module "react-syntax-highlighter/dist/esm/styles/prism"];;
+external darcula: t = "darcula" [@@bs.module "react-syntax-highlighter/dist/esm/styles/prism"];;
+external duotoneDark: t = "duotoneDark" [@@bs.module "react-syntax-highlighter/dist/esm/styles/prism"];;
+external duotoneEarth: t = "duotoneEarth" [@@bs.module "react-syntax-highlighter/dist/esm/styles/prism"];;
+external duotoneForest: t = "duotoneForest" [@@bs.module "react-syntax-highlighter/dist/esm/styles/prism"];;
+external duotoneLight: t = "duotoneLight" [@@bs.module "react-syntax-highlighter/dist/esm/styles/prism"];;
+external duotoneSea: t = "duotoneSea" [@@bs.module "react-syntax-highlighter/dist/esm/styles/prism"];;
+external duotoneSpace: t = "duotoneSpace" [@@bs.module "react-syntax-highlighter/dist/esm/styles/prism"];;
+external ghcolors: t = "ghcolors" [@@bs.module "react-syntax-highlighter/dist/esm/styles/prism"];;
+external hopscotch: t = "hopscotch" [@@bs.module "react-syntax-highlighter/dist/esm/styles/prism"];;
+external pojoaque: t = "pojoaque" [@@bs.module "react-syntax-highlighter/dist/esm/styles/prism"];;
+external vs: t = "vs" [@@bs.module "react-syntax-highlighter/dist/esm/styles/prism"];;
+external xonokai: t = "xonokai" [@@bs.module "react-syntax-highlighter/dist/esm/styles/prism"];;

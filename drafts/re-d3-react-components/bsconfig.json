@@ -1,0 +1,29 @@
+{
+    "name": "re-d3-react-components",
+    "version": "0.1.0",
+    "reason": {
+        "react-jsx": 3
+    },
+    "bsc-flags": [
+        "-bs-super-errors",
+        "-open Belt"
+    ],
+    "sources": {
+        "dir": "src",
+        "subdirs": true
+    },
+    "package-specs": {
+        "module": "commonjs",
+        "in-source": true
+    },
+    "suffix": ".bs.js",
+    "bs-dependencies": [
+        "reason-react",
+        "bs-css"
+    ],
+    "warnings": {
+        "error": "+101"
+    },
+    "namespace": true,
+    "refmt": 3
+}

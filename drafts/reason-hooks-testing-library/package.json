@@ -1,0 +1,41 @@
+{
+  "name": "reason-hooks-testing-library",
+  "version": "0.2.1",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "yarn build && jest"
+  },
+  "description": "ReasonReact hooks testing library.",
+  "homepage": "https://github.com/beizhedenglong/reason-hooks-testing-library",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beizhedenglong/reason-hooks-testing-library"
+  },
+  "bugs": {
+    "url": "https://github.com/beizhedenglong/reason-hooks-testing-library/issues"
+  },
+  "keywords": [
+    "BuckleScript",
+    "testing",
+    "hooks"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@testing-library/react-hooks": "^1.1.0",
+    "react-test-renderer": "^16.8.6"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "reason-react": ">=0.7.0"
+  },
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.4.8",
+    "bs-platform": "^5.0.6",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "reason-react": ">=0.7.0"
+  }
+}

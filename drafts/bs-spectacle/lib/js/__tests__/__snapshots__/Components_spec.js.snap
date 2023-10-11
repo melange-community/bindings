@@ -1,0 +1,3694 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Appear with fid 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Connect(Appear)
+    fid="1"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "dispatch": [Function],
+      "easing": "quadInOut",
+      "endValue": Object {
+        "opacity": 1,
+      },
+      "fid": "1",
+      "route": Object {
+        "slide": 0,
+      },
+      "startValue": Object {
+        "opacity": 0,
+      },
+      "style": Object {},
+      "transitionDuration": 300,
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "dispatch": [Function],
+        "easing": "quadInOut",
+        "endValue": Object {
+          "opacity": 1,
+        },
+        "fid": "1",
+        "route": Object {
+          "slide": 0,
+        },
+        "startValue": Object {
+          "opacity": 0,
+        },
+        "style": Object {},
+        "transitionDuration": 300,
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "attachTo": undefined,
+    "context": Object {
+      "store": Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [Function],
+      },
+      "styles": Object {
+        "colors": Object {},
+        "components": Object {
+          "heading": Object {
+            "h1": Object {},
+          },
+          "s": Object {},
+        },
+        "fonts": Object {},
+        "prism": Object {},
+      },
+    },
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Appear with order 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Connect(Appear)
+    order={1}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "dispatch": [Function],
+      "easing": "quadInOut",
+      "endValue": Object {
+        "opacity": 1,
+      },
+      "order": 1,
+      "route": Object {
+        "slide": 0,
+      },
+      "startValue": Object {
+        "opacity": 0,
+      },
+      "style": Object {},
+      "transitionDuration": 300,
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "dispatch": [Function],
+        "easing": "quadInOut",
+        "endValue": Object {
+          "opacity": 1,
+        },
+        "order": 1,
+        "route": Object {
+          "slide": 0,
+        },
+        "startValue": Object {
+          "opacity": 0,
+        },
+        "style": Object {},
+        "transitionDuration": 300,
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "attachTo": undefined,
+    "context": Object {
+      "store": Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [Function],
+      },
+      "styles": Object {
+        "colors": Object {},
+        "components": Object {
+          "heading": Object {
+            "h1": Object {},
+          },
+          "s": Object {},
+        },
+        "fonts": Object {},
+        "prism": Object {},
+      },
+    },
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Appear without props 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Connect(Appear) />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "dispatch": [Function],
+      "easing": "quadInOut",
+      "endValue": Object {
+        "opacity": 1,
+      },
+      "route": Object {
+        "slide": 0,
+      },
+      "startValue": Object {
+        "opacity": 0,
+      },
+      "style": Object {},
+      "transitionDuration": 300,
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "dispatch": [Function],
+        "easing": "quadInOut",
+        "endValue": Object {
+          "opacity": 1,
+        },
+        "route": Object {
+          "slide": 0,
+        },
+        "startValue": Object {
+          "opacity": 0,
+        },
+        "style": Object {},
+        "transitionDuration": 300,
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "attachTo": undefined,
+    "context": Object {
+      "store": Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [Function],
+      },
+      "styles": Object {
+        "colors": Object {},
+        "components": Object {
+          "heading": Object {
+            "h1": Object {},
+          },
+          "s": Object {},
+        },
+        "fonts": Object {},
+        "prism": Object {},
+      },
+    },
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`ComponentPlayground with code 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ComponentPlayground
+    code="test"
+    theme="dark"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <Styled(div)>
+          <Styled(div)>
+            Live Preview
+          </Styled(div)>
+          <Styled(div)
+            useDarkTheme={true}
+          >
+            Source Code
+            <FullscreenButton
+              onClick={[Function]}
+            />
+          </Styled(div)>
+        </Styled(div)>,
+        <Styled(div)
+          innerRef={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <Styled(div)>
+            <Styled(Component)
+              previewBackgroundColor={undefined}
+            />
+            <Styled(LiveError) />
+          </Styled(div)>
+          <Styled(div)>
+            <Styled(Component)
+              className="language-jsx builtin-prism-theme"
+              onChange={[Function]}
+              prismTheme={undefined}
+              syntaxStyles={undefined}
+            />
+          </Styled(div)>
+        </Styled(div)>,
+      ],
+      "code": "test",
+      "mountStylesheet": false,
+      "noInline": true,
+      "scope": Object {
+        "Component": [Function],
+      },
+      "transformCode": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Styled(div)>
+              Live Preview
+            </Styled(div)>,
+            <Styled(div)
+              useDarkTheme={true}
+            >
+              Source Code
+              <FullscreenButton
+                onClick={[Function]}
+              />
+            </Styled(div)>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Live Preview",
+            },
+            "ref": null,
+            "rendered": "Live Preview",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                "Source Code",
+                <FullscreenButton
+                  onClick={[Function]}
+                />,
+              ],
+              "useDarkTheme": true,
+            },
+            "ref": null,
+            "rendered": Array [
+              "Source Code",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Styled(div)>
+              <Styled(Component)
+                previewBackgroundColor={undefined}
+              />
+              <Styled(LiveError) />
+            </Styled(div)>,
+            <Styled(div)>
+              <Styled(Component)
+                className="language-jsx builtin-prism-theme"
+                onChange={[Function]}
+                prismTheme={undefined}
+                syntaxStyles={undefined}
+              />
+            </Styled(div)>,
+          ],
+          "innerRef": [Function],
+          "onKeyDown": [Function],
+          "onKeyUp": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Styled(Component)
+                  previewBackgroundColor={undefined}
+                />,
+                <Styled(LiveError) />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "previewBackgroundColor": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Styled(Component)
+                className="language-jsx builtin-prism-theme"
+                onChange={[Function]}
+                prismTheme={undefined}
+                syntaxStyles={undefined}
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "className": "language-jsx builtin-prism-theme",
+                "onChange": [Function],
+                "prismTheme": undefined,
+                "syntaxStyles": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Styled(div)>
+            <Styled(div)>
+              Live Preview
+            </Styled(div)>
+            <Styled(div)
+              useDarkTheme={true}
+            >
+              Source Code
+              <FullscreenButton
+                onClick={[Function]}
+              />
+            </Styled(div)>
+          </Styled(div)>,
+          <Styled(div)
+            innerRef={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
+            <Styled(div)>
+              <Styled(Component)
+                previewBackgroundColor={undefined}
+              />
+              <Styled(LiveError) />
+            </Styled(div)>
+            <Styled(div)>
+              <Styled(Component)
+                className="language-jsx builtin-prism-theme"
+                onChange={[Function]}
+                prismTheme={undefined}
+                syntaxStyles={undefined}
+              />
+            </Styled(div)>
+          </Styled(div)>,
+        ],
+        "code": "test",
+        "mountStylesheet": false,
+        "noInline": true,
+        "scope": Object {
+          "Component": [Function],
+        },
+        "transformCode": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Styled(div)>
+                Live Preview
+              </Styled(div)>,
+              <Styled(div)
+                useDarkTheme={true}
+              >
+                Source Code
+                <FullscreenButton
+                  onClick={[Function]}
+                />
+              </Styled(div)>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Live Preview",
+              },
+              "ref": null,
+              "rendered": "Live Preview",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  "Source Code",
+                  <FullscreenButton
+                    onClick={[Function]}
+                  />,
+                ],
+                "useDarkTheme": true,
+              },
+              "ref": null,
+              "rendered": Array [
+                "Source Code",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Styled(div)>
+                <Styled(Component)
+                  previewBackgroundColor={undefined}
+                />
+                <Styled(LiveError) />
+              </Styled(div)>,
+              <Styled(div)>
+                <Styled(Component)
+                  className="language-jsx builtin-prism-theme"
+                  onChange={[Function]}
+                  prismTheme={undefined}
+                  syntaxStyles={undefined}
+                />
+              </Styled(div)>,
+            ],
+            "innerRef": [Function],
+            "onKeyDown": [Function],
+            "onKeyUp": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <Styled(Component)
+                    previewBackgroundColor={undefined}
+                  />,
+                  <Styled(LiveError) />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "previewBackgroundColor": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Styled(Component)
+                  className="language-jsx builtin-prism-theme"
+                  onChange={[Function]}
+                  prismTheme={undefined}
+                  syntaxStyles={undefined}
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "className": "language-jsx builtin-prism-theme",
+                  "onChange": [Function],
+                  "prismTheme": undefined,
+                  "syntaxStyles": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "attachTo": undefined,
+    "context": Object {
+      "store": Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [Function],
+      },
+      "styles": Object {
+        "colors": Object {},
+        "components": Object {
+          "heading": Object {
+            "h1": Object {},
+          },
+          "s": Object {},
+        },
+        "fonts": Object {},
+        "prism": Object {},
+      },
+    },
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`ComponentPlayground with dark theme 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ComponentPlayground
+    theme="dark"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <Styled(div)>
+          <Styled(div)>
+            Live Preview
+          </Styled(div)>
+          <Styled(div)
+            useDarkTheme={true}
+          >
+            Source Code
+            <FullscreenButton
+              onClick={[Function]}
+            />
+          </Styled(div)>
+        </Styled(div)>,
+        <Styled(div)
+          innerRef={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <Styled(div)>
+            <Styled(Component)
+              previewBackgroundColor={undefined}
+            />
+            <Styled(LiveError) />
+          </Styled(div)>
+          <Styled(div)>
+            <Styled(Component)
+              className="language-jsx builtin-prism-theme"
+              onChange={[Function]}
+              prismTheme={undefined}
+              syntaxStyles={undefined}
+            />
+          </Styled(div)>
+        </Styled(div)>,
+      ],
+      "code": "/**
+ * Sample React Component
+ * Output domContainerNode is 'mountNode'
+ */
+
+const styles = {
+  heading: {
+    fontSize: \\"2.25rem\\",
+    fontWeight: \\"bold\\"
+  },
+  copy: {
+    fontSize: \\"1.5rem\\"
+  }
+}
+
+const HelloWorld = ({ name }) => (
+  <div>
+    <h1 style={styles.heading}>
+      Create Live Code Examples in {name}!
+    </h1>
+    <p style={styles.copy}>
+      Supports Light and Dark Syntax Themes
+    </p>
+  </div>
+)
+
+render(<HelloWorld name=\\"Spectacle\\" />)",
+      "mountStylesheet": false,
+      "noInline": true,
+      "scope": Object {
+        "Component": [Function],
+      },
+      "transformCode": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Styled(div)>
+              Live Preview
+            </Styled(div)>,
+            <Styled(div)
+              useDarkTheme={true}
+            >
+              Source Code
+              <FullscreenButton
+                onClick={[Function]}
+              />
+            </Styled(div)>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Live Preview",
+            },
+            "ref": null,
+            "rendered": "Live Preview",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                "Source Code",
+                <FullscreenButton
+                  onClick={[Function]}
+                />,
+              ],
+              "useDarkTheme": true,
+            },
+            "ref": null,
+            "rendered": Array [
+              "Source Code",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Styled(div)>
+              <Styled(Component)
+                previewBackgroundColor={undefined}
+              />
+              <Styled(LiveError) />
+            </Styled(div)>,
+            <Styled(div)>
+              <Styled(Component)
+                className="language-jsx builtin-prism-theme"
+                onChange={[Function]}
+                prismTheme={undefined}
+                syntaxStyles={undefined}
+              />
+            </Styled(div)>,
+          ],
+          "innerRef": [Function],
+          "onKeyDown": [Function],
+          "onKeyUp": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Styled(Component)
+                  previewBackgroundColor={undefined}
+                />,
+                <Styled(LiveError) />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "previewBackgroundColor": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Styled(Component)
+                className="language-jsx builtin-prism-theme"
+                onChange={[Function]}
+                prismTheme={undefined}
+                syntaxStyles={undefined}
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "className": "language-jsx builtin-prism-theme",
+                "onChange": [Function],
+                "prismTheme": undefined,
+                "syntaxStyles": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Styled(div)>
+            <Styled(div)>
+              Live Preview
+            </Styled(div)>
+            <Styled(div)
+              useDarkTheme={true}
+            >
+              Source Code
+              <FullscreenButton
+                onClick={[Function]}
+              />
+            </Styled(div)>
+          </Styled(div)>,
+          <Styled(div)
+            innerRef={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
+            <Styled(div)>
+              <Styled(Component)
+                previewBackgroundColor={undefined}
+              />
+              <Styled(LiveError) />
+            </Styled(div)>
+            <Styled(div)>
+              <Styled(Component)
+                className="language-jsx builtin-prism-theme"
+                onChange={[Function]}
+                prismTheme={undefined}
+                syntaxStyles={undefined}
+              />
+            </Styled(div)>
+          </Styled(div)>,
+        ],
+        "code": "/**
+ * Sample React Component
+ * Output domContainerNode is 'mountNode'
+ */
+
+const styles = {
+  heading: {
+    fontSize: \\"2.25rem\\",
+    fontWeight: \\"bold\\"
+  },
+  copy: {
+    fontSize: \\"1.5rem\\"
+  }
+}
+
+const HelloWorld = ({ name }) => (
+  <div>
+    <h1 style={styles.heading}>
+      Create Live Code Examples in {name}!
+    </h1>
+    <p style={styles.copy}>
+      Supports Light and Dark Syntax Themes
+    </p>
+  </div>
+)
+
+render(<HelloWorld name=\\"Spectacle\\" />)",
+        "mountStylesheet": false,
+        "noInline": true,
+        "scope": Object {
+          "Component": [Function],
+        },
+        "transformCode": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Styled(div)>
+                Live Preview
+              </Styled(div)>,
+              <Styled(div)
+                useDarkTheme={true}
+              >
+                Source Code
+                <FullscreenButton
+                  onClick={[Function]}
+                />
+              </Styled(div)>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Live Preview",
+              },
+              "ref": null,
+              "rendered": "Live Preview",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  "Source Code",
+                  <FullscreenButton
+                    onClick={[Function]}
+                  />,
+                ],
+                "useDarkTheme": true,
+              },
+              "ref": null,
+              "rendered": Array [
+                "Source Code",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Styled(div)>
+                <Styled(Component)
+                  previewBackgroundColor={undefined}
+                />
+                <Styled(LiveError) />
+              </Styled(div)>,
+              <Styled(div)>
+                <Styled(Component)
+                  className="language-jsx builtin-prism-theme"
+                  onChange={[Function]}
+                  prismTheme={undefined}
+                  syntaxStyles={undefined}
+                />
+              </Styled(div)>,
+            ],
+            "innerRef": [Function],
+            "onKeyDown": [Function],
+            "onKeyUp": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <Styled(Component)
+                    previewBackgroundColor={undefined}
+                  />,
+                  <Styled(LiveError) />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "previewBackgroundColor": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Styled(Component)
+                  className="language-jsx builtin-prism-theme"
+                  onChange={[Function]}
+                  prismTheme={undefined}
+                  syntaxStyles={undefined}
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "className": "language-jsx builtin-prism-theme",
+                  "onChange": [Function],
+                  "prismTheme": undefined,
+                  "syntaxStyles": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "attachTo": undefined,
+    "context": Object {
+      "store": Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [Function],
+      },
+      "styles": Object {
+        "colors": Object {},
+        "components": Object {
+          "heading": Object {
+            "h1": Object {},
+          },
+          "s": Object {},
+        },
+        "fonts": Object {},
+        "prism": Object {},
+      },
+    },
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`ComponentPlayground with light theme 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ComponentPlayground
+    theme="light"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <Styled(div)>
+          <Styled(div)>
+            Live Preview
+          </Styled(div)>
+          <Styled(div)
+            useDarkTheme={false}
+          >
+            Source Code
+            <FullscreenButton
+              onClick={[Function]}
+            />
+          </Styled(div)>
+        </Styled(div)>,
+        <Styled(div)
+          innerRef={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <Styled(div)>
+            <Styled(Component)
+              previewBackgroundColor={undefined}
+            />
+            <Styled(LiveError) />
+          </Styled(div)>
+          <Styled(div)>
+            <Styled(Component)
+              className="language-jsx builtin-prism-theme"
+              onChange={[Function]}
+              prismTheme={undefined}
+              syntaxStyles={undefined}
+            />
+          </Styled(div)>
+        </Styled(div)>,
+      ],
+      "code": "/**
+ * Sample React Component
+ * Output domContainerNode is 'mountNode'
+ */
+
+const styles = {
+  heading: {
+    fontSize: \\"2.25rem\\",
+    fontWeight: \\"bold\\"
+  },
+  copy: {
+    fontSize: \\"1.5rem\\"
+  }
+}
+
+const HelloWorld = ({ name }) => (
+  <div>
+    <h1 style={styles.heading}>
+      Create Live Code Examples in {name}!
+    </h1>
+    <p style={styles.copy}>
+      Supports Light and Dark Syntax Themes
+    </p>
+  </div>
+)
+
+render(<HelloWorld name=\\"Spectacle\\" />)",
+      "mountStylesheet": false,
+      "noInline": true,
+      "scope": Object {
+        "Component": [Function],
+      },
+      "transformCode": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Styled(div)>
+              Live Preview
+            </Styled(div)>,
+            <Styled(div)
+              useDarkTheme={false}
+            >
+              Source Code
+              <FullscreenButton
+                onClick={[Function]}
+              />
+            </Styled(div)>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Live Preview",
+            },
+            "ref": null,
+            "rendered": "Live Preview",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                "Source Code",
+                <FullscreenButton
+                  onClick={[Function]}
+                />,
+              ],
+              "useDarkTheme": false,
+            },
+            "ref": null,
+            "rendered": Array [
+              "Source Code",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Styled(div)>
+              <Styled(Component)
+                previewBackgroundColor={undefined}
+              />
+              <Styled(LiveError) />
+            </Styled(div)>,
+            <Styled(div)>
+              <Styled(Component)
+                className="language-jsx builtin-prism-theme"
+                onChange={[Function]}
+                prismTheme={undefined}
+                syntaxStyles={undefined}
+              />
+            </Styled(div)>,
+          ],
+          "innerRef": [Function],
+          "onKeyDown": [Function],
+          "onKeyUp": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Styled(Component)
+                  previewBackgroundColor={undefined}
+                />,
+                <Styled(LiveError) />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "previewBackgroundColor": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Styled(Component)
+                className="language-jsx builtin-prism-theme"
+                onChange={[Function]}
+                prismTheme={undefined}
+                syntaxStyles={undefined}
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "className": "language-jsx builtin-prism-theme",
+                "onChange": [Function],
+                "prismTheme": undefined,
+                "syntaxStyles": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Styled(div)>
+            <Styled(div)>
+              Live Preview
+            </Styled(div)>
+            <Styled(div)
+              useDarkTheme={false}
+            >
+              Source Code
+              <FullscreenButton
+                onClick={[Function]}
+              />
+            </Styled(div)>
+          </Styled(div)>,
+          <Styled(div)
+            innerRef={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
+            <Styled(div)>
+              <Styled(Component)
+                previewBackgroundColor={undefined}
+              />
+              <Styled(LiveError) />
+            </Styled(div)>
+            <Styled(div)>
+              <Styled(Component)
+                className="language-jsx builtin-prism-theme"
+                onChange={[Function]}
+                prismTheme={undefined}
+                syntaxStyles={undefined}
+              />
+            </Styled(div)>
+          </Styled(div)>,
+        ],
+        "code": "/**
+ * Sample React Component
+ * Output domContainerNode is 'mountNode'
+ */
+
+const styles = {
+  heading: {
+    fontSize: \\"2.25rem\\",
+    fontWeight: \\"bold\\"
+  },
+  copy: {
+    fontSize: \\"1.5rem\\"
+  }
+}
+
+const HelloWorld = ({ name }) => (
+  <div>
+    <h1 style={styles.heading}>
+      Create Live Code Examples in {name}!
+    </h1>
+    <p style={styles.copy}>
+      Supports Light and Dark Syntax Themes
+    </p>
+  </div>
+)
+
+render(<HelloWorld name=\\"Spectacle\\" />)",
+        "mountStylesheet": false,
+        "noInline": true,
+        "scope": Object {
+          "Component": [Function],
+        },
+        "transformCode": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Styled(div)>
+                Live Preview
+              </Styled(div)>,
+              <Styled(div)
+                useDarkTheme={false}
+              >
+                Source Code
+                <FullscreenButton
+                  onClick={[Function]}
+                />
+              </Styled(div)>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Live Preview",
+              },
+              "ref": null,
+              "rendered": "Live Preview",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  "Source Code",
+                  <FullscreenButton
+                    onClick={[Function]}
+                  />,
+                ],
+                "useDarkTheme": false,
+              },
+              "ref": null,
+              "rendered": Array [
+                "Source Code",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Styled(div)>
+                <Styled(Component)
+                  previewBackgroundColor={undefined}
+                />
+                <Styled(LiveError) />
+              </Styled(div)>,
+              <Styled(div)>
+                <Styled(Component)
+                  className="language-jsx builtin-prism-theme"
+                  onChange={[Function]}
+                  prismTheme={undefined}
+                  syntaxStyles={undefined}
+                />
+              </Styled(div)>,
+            ],
+            "innerRef": [Function],
+            "onKeyDown": [Function],
+            "onKeyUp": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <Styled(Component)
+                    previewBackgroundColor={undefined}
+                  />,
+                  <Styled(LiveError) />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "previewBackgroundColor": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Styled(Component)
+                  className="language-jsx builtin-prism-theme"
+                  onChange={[Function]}
+                  prismTheme={undefined}
+                  syntaxStyles={undefined}
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "className": "language-jsx builtin-prism-theme",
+                  "onChange": [Function],
+                  "prismTheme": undefined,
+                  "syntaxStyles": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "attachTo": undefined,
+    "context": Object {
+      "store": Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [Function],
+      },
+      "styles": Object {
+        "colors": Object {},
+        "components": Object {
+          "heading": Object {
+            "h1": Object {},
+          },
+          "s": Object {},
+        },
+        "fonts": Object {},
+        "prism": Object {},
+      },
+    },
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`ComponentPlayground with preview background color 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ComponentPlayground
+    previewBackgroundColor="#7315FF"
+    theme="dark"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <Styled(div)>
+          <Styled(div)>
+            Live Preview
+          </Styled(div)>
+          <Styled(div)
+            useDarkTheme={true}
+          >
+            Source Code
+            <FullscreenButton
+              onClick={[Function]}
+            />
+          </Styled(div)>
+        </Styled(div)>,
+        <Styled(div)
+          innerRef={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <Styled(div)>
+            <Styled(Component)
+              previewBackgroundColor="#7315FF"
+            />
+            <Styled(LiveError) />
+          </Styled(div)>
+          <Styled(div)>
+            <Styled(Component)
+              className="language-jsx builtin-prism-theme"
+              onChange={[Function]}
+              prismTheme={undefined}
+              syntaxStyles={undefined}
+            />
+          </Styled(div)>
+        </Styled(div)>,
+      ],
+      "code": "/**
+ * Sample React Component
+ * Output domContainerNode is 'mountNode'
+ */
+
+const styles = {
+  heading: {
+    fontSize: \\"2.25rem\\",
+    fontWeight: \\"bold\\"
+  },
+  copy: {
+    fontSize: \\"1.5rem\\"
+  }
+}
+
+const HelloWorld = ({ name }) => (
+  <div>
+    <h1 style={styles.heading}>
+      Create Live Code Examples in {name}!
+    </h1>
+    <p style={styles.copy}>
+      Supports Light and Dark Syntax Themes
+    </p>
+  </div>
+)
+
+render(<HelloWorld name=\\"Spectacle\\" />)",
+      "mountStylesheet": false,
+      "noInline": true,
+      "scope": Object {
+        "Component": [Function],
+      },
+      "transformCode": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Styled(div)>
+              Live Preview
+            </Styled(div)>,
+            <Styled(div)
+              useDarkTheme={true}
+            >
+              Source Code
+              <FullscreenButton
+                onClick={[Function]}
+              />
+            </Styled(div)>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Live Preview",
+            },
+            "ref": null,
+            "rendered": "Live Preview",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                "Source Code",
+                <FullscreenButton
+                  onClick={[Function]}
+                />,
+              ],
+              "useDarkTheme": true,
+            },
+            "ref": null,
+            "rendered": Array [
+              "Source Code",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Styled(div)>
+              <Styled(Component)
+                previewBackgroundColor="#7315FF"
+              />
+              <Styled(LiveError) />
+            </Styled(div)>,
+            <Styled(div)>
+              <Styled(Component)
+                className="language-jsx builtin-prism-theme"
+                onChange={[Function]}
+                prismTheme={undefined}
+                syntaxStyles={undefined}
+              />
+            </Styled(div)>,
+          ],
+          "innerRef": [Function],
+          "onKeyDown": [Function],
+          "onKeyUp": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Styled(Component)
+                  previewBackgroundColor="#7315FF"
+                />,
+                <Styled(LiveError) />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "previewBackgroundColor": "#7315FF",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Styled(Component)
+                className="language-jsx builtin-prism-theme"
+                onChange={[Function]}
+                prismTheme={undefined}
+                syntaxStyles={undefined}
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "className": "language-jsx builtin-prism-theme",
+                "onChange": [Function],
+                "prismTheme": undefined,
+                "syntaxStyles": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Styled(div)>
+            <Styled(div)>
+              Live Preview
+            </Styled(div)>
+            <Styled(div)
+              useDarkTheme={true}
+            >
+              Source Code
+              <FullscreenButton
+                onClick={[Function]}
+              />
+            </Styled(div)>
+          </Styled(div)>,
+          <Styled(div)
+            innerRef={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
+            <Styled(div)>
+              <Styled(Component)
+                previewBackgroundColor="#7315FF"
+              />
+              <Styled(LiveError) />
+            </Styled(div)>
+            <Styled(div)>
+              <Styled(Component)
+                className="language-jsx builtin-prism-theme"
+                onChange={[Function]}
+                prismTheme={undefined}
+                syntaxStyles={undefined}
+              />
+            </Styled(div)>
+          </Styled(div)>,
+        ],
+        "code": "/**
+ * Sample React Component
+ * Output domContainerNode is 'mountNode'
+ */
+
+const styles = {
+  heading: {
+    fontSize: \\"2.25rem\\",
+    fontWeight: \\"bold\\"
+  },
+  copy: {
+    fontSize: \\"1.5rem\\"
+  }
+}
+
+const HelloWorld = ({ name }) => (
+  <div>
+    <h1 style={styles.heading}>
+      Create Live Code Examples in {name}!
+    </h1>
+    <p style={styles.copy}>
+      Supports Light and Dark Syntax Themes
+    </p>
+  </div>
+)
+
+render(<HelloWorld name=\\"Spectacle\\" />)",
+        "mountStylesheet": false,
+        "noInline": true,
+        "scope": Object {
+          "Component": [Function],
+        },
+        "transformCode": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Styled(div)>
+                Live Preview
+              </Styled(div)>,
+              <Styled(div)
+                useDarkTheme={true}
+              >
+                Source Code
+                <FullscreenButton
+                  onClick={[Function]}
+                />
+              </Styled(div)>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Live Preview",
+              },
+              "ref": null,
+              "rendered": "Live Preview",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  "Source Code",
+                  <FullscreenButton
+                    onClick={[Function]}
+                  />,
+                ],
+                "useDarkTheme": true,
+              },
+              "ref": null,
+              "rendered": Array [
+                "Source Code",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Styled(div)>
+                <Styled(Component)
+                  previewBackgroundColor="#7315FF"
+                />
+                <Styled(LiveError) />
+              </Styled(div)>,
+              <Styled(div)>
+                <Styled(Component)
+                  className="language-jsx builtin-prism-theme"
+                  onChange={[Function]}
+                  prismTheme={undefined}
+                  syntaxStyles={undefined}
+                />
+              </Styled(div)>,
+            ],
+            "innerRef": [Function],
+            "onKeyDown": [Function],
+            "onKeyUp": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <Styled(Component)
+                    previewBackgroundColor="#7315FF"
+                  />,
+                  <Styled(LiveError) />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "previewBackgroundColor": "#7315FF",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Styled(Component)
+                  className="language-jsx builtin-prism-theme"
+                  onChange={[Function]}
+                  prismTheme={undefined}
+                  syntaxStyles={undefined}
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "className": "language-jsx builtin-prism-theme",
+                  "onChange": [Function],
+                  "prismTheme": undefined,
+                  "syntaxStyles": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "attachTo": undefined,
+    "context": Object {
+      "store": Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [Function],
+      },
+      "styles": Object {
+        "colors": Object {},
+        "components": Object {
+          "heading": Object {
+            "h1": Object {},
+          },
+          "s": Object {},
+        },
+        "fonts": Object {},
+        "prism": Object {},
+      },
+    },
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`ComponentPlayground with scope 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ComponentPlayground
+    scope={
+      Object {
+        "logger": [Function],
+      }
+    }
+    theme="dark"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <Styled(div)>
+          <Styled(div)>
+            Live Preview
+          </Styled(div)>
+          <Styled(div)
+            useDarkTheme={true}
+          >
+            Source Code
+            <FullscreenButton
+              onClick={[Function]}
+            />
+          </Styled(div)>
+        </Styled(div)>,
+        <Styled(div)
+          innerRef={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <Styled(div)>
+            <Styled(Component)
+              previewBackgroundColor={undefined}
+            />
+            <Styled(LiveError) />
+          </Styled(div)>
+          <Styled(div)>
+            <Styled(Component)
+              className="language-jsx builtin-prism-theme"
+              onChange={[Function]}
+              prismTheme={undefined}
+              syntaxStyles={undefined}
+            />
+          </Styled(div)>
+        </Styled(div)>,
+      ],
+      "code": "/**
+ * Sample React Component
+ * Output domContainerNode is 'mountNode'
+ */
+
+const styles = {
+  heading: {
+    fontSize: \\"2.25rem\\",
+    fontWeight: \\"bold\\"
+  },
+  copy: {
+    fontSize: \\"1.5rem\\"
+  }
+}
+
+const HelloWorld = ({ name }) => (
+  <div>
+    <h1 style={styles.heading}>
+      Create Live Code Examples in {name}!
+    </h1>
+    <p style={styles.copy}>
+      Supports Light and Dark Syntax Themes
+    </p>
+  </div>
+)
+
+render(<HelloWorld name=\\"Spectacle\\" />)",
+      "mountStylesheet": false,
+      "noInline": true,
+      "scope": Object {
+        "Component": [Function],
+        "logger": [Function],
+      },
+      "transformCode": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Styled(div)>
+              Live Preview
+            </Styled(div)>,
+            <Styled(div)
+              useDarkTheme={true}
+            >
+              Source Code
+              <FullscreenButton
+                onClick={[Function]}
+              />
+            </Styled(div)>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Live Preview",
+            },
+            "ref": null,
+            "rendered": "Live Preview",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                "Source Code",
+                <FullscreenButton
+                  onClick={[Function]}
+                />,
+              ],
+              "useDarkTheme": true,
+            },
+            "ref": null,
+            "rendered": Array [
+              "Source Code",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Styled(div)>
+              <Styled(Component)
+                previewBackgroundColor={undefined}
+              />
+              <Styled(LiveError) />
+            </Styled(div)>,
+            <Styled(div)>
+              <Styled(Component)
+                className="language-jsx builtin-prism-theme"
+                onChange={[Function]}
+                prismTheme={undefined}
+                syntaxStyles={undefined}
+              />
+            </Styled(div)>,
+          ],
+          "innerRef": [Function],
+          "onKeyDown": [Function],
+          "onKeyUp": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Styled(Component)
+                  previewBackgroundColor={undefined}
+                />,
+                <Styled(LiveError) />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "previewBackgroundColor": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Styled(Component)
+                className="language-jsx builtin-prism-theme"
+                onChange={[Function]}
+                prismTheme={undefined}
+                syntaxStyles={undefined}
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "className": "language-jsx builtin-prism-theme",
+                "onChange": [Function],
+                "prismTheme": undefined,
+                "syntaxStyles": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Styled(div)>
+            <Styled(div)>
+              Live Preview
+            </Styled(div)>
+            <Styled(div)
+              useDarkTheme={true}
+            >
+              Source Code
+              <FullscreenButton
+                onClick={[Function]}
+              />
+            </Styled(div)>
+          </Styled(div)>,
+          <Styled(div)
+            innerRef={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
+            <Styled(div)>
+              <Styled(Component)
+                previewBackgroundColor={undefined}
+              />
+              <Styled(LiveError) />
+            </Styled(div)>
+            <Styled(div)>
+              <Styled(Component)
+                className="language-jsx builtin-prism-theme"
+                onChange={[Function]}
+                prismTheme={undefined}
+                syntaxStyles={undefined}
+              />
+            </Styled(div)>
+          </Styled(div)>,
+        ],
+        "code": "/**
+ * Sample React Component
+ * Output domContainerNode is 'mountNode'
+ */
+
+const styles = {
+  heading: {
+    fontSize: \\"2.25rem\\",
+    fontWeight: \\"bold\\"
+  },
+  copy: {
+    fontSize: \\"1.5rem\\"
+  }
+}
+
+const HelloWorld = ({ name }) => (
+  <div>
+    <h1 style={styles.heading}>
+      Create Live Code Examples in {name}!
+    </h1>
+    <p style={styles.copy}>
+      Supports Light and Dark Syntax Themes
+    </p>
+  </div>
+)
+
+render(<HelloWorld name=\\"Spectacle\\" />)",
+        "mountStylesheet": false,
+        "noInline": true,
+        "scope": Object {
+          "Component": [Function],
+          "logger": [Function],
+        },
+        "transformCode": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Styled(div)>
+                Live Preview
+              </Styled(div)>,
+              <Styled(div)
+                useDarkTheme={true}
+              >
+                Source Code
+                <FullscreenButton
+                  onClick={[Function]}
+                />
+              </Styled(div)>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Live Preview",
+              },
+              "ref": null,
+              "rendered": "Live Preview",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  "Source Code",
+                  <FullscreenButton
+                    onClick={[Function]}
+                  />,
+                ],
+                "useDarkTheme": true,
+              },
+              "ref": null,
+              "rendered": Array [
+                "Source Code",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Styled(div)>
+                <Styled(Component)
+                  previewBackgroundColor={undefined}
+                />
+                <Styled(LiveError) />
+              </Styled(div)>,
+              <Styled(div)>
+                <Styled(Component)
+                  className="language-jsx builtin-prism-theme"
+                  onChange={[Function]}
+                  prismTheme={undefined}
+                  syntaxStyles={undefined}
+                />
+              </Styled(div)>,
+            ],
+            "innerRef": [Function],
+            "onKeyDown": [Function],
+            "onKeyUp": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <Styled(Component)
+                    previewBackgroundColor={undefined}
+                  />,
+                  <Styled(LiveError) />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "previewBackgroundColor": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Styled(Component)
+                  className="language-jsx builtin-prism-theme"
+                  onChange={[Function]}
+                  prismTheme={undefined}
+                  syntaxStyles={undefined}
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "className": "language-jsx builtin-prism-theme",
+                  "onChange": [Function],
+                  "prismTheme": undefined,
+                  "syntaxStyles": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "attachTo": undefined,
+    "context": Object {
+      "store": Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [Function],
+      },
+      "styles": Object {
+        "colors": Object {},
+        "components": Object {
+          "heading": Object {
+            "h1": Object {},
+          },
+          "s": Object {},
+        },
+        "fonts": Object {},
+        "prism": Object {},
+      },
+    },
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`ComponentPlayground without props 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ComponentPlayground
+    theme="dark"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <Styled(div)>
+          <Styled(div)>
+            Live Preview
+          </Styled(div)>
+          <Styled(div)
+            useDarkTheme={true}
+          >
+            Source Code
+            <FullscreenButton
+              onClick={[Function]}
+            />
+          </Styled(div)>
+        </Styled(div)>,
+        <Styled(div)
+          innerRef={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <Styled(div)>
+            <Styled(Component)
+              previewBackgroundColor={undefined}
+            />
+            <Styled(LiveError) />
+          </Styled(div)>
+          <Styled(div)>
+            <Styled(Component)
+              className="language-jsx builtin-prism-theme"
+              onChange={[Function]}
+              prismTheme={undefined}
+              syntaxStyles={undefined}
+            />
+          </Styled(div)>
+        </Styled(div)>,
+      ],
+      "code": "/**
+ * Sample React Component
+ * Output domContainerNode is 'mountNode'
+ */
+
+const styles = {
+  heading: {
+    fontSize: \\"2.25rem\\",
+    fontWeight: \\"bold\\"
+  },
+  copy: {
+    fontSize: \\"1.5rem\\"
+  }
+}
+
+const HelloWorld = ({ name }) => (
+  <div>
+    <h1 style={styles.heading}>
+      Create Live Code Examples in {name}!
+    </h1>
+    <p style={styles.copy}>
+      Supports Light and Dark Syntax Themes
+    </p>
+  </div>
+)
+
+render(<HelloWorld name=\\"Spectacle\\" />)",
+      "mountStylesheet": false,
+      "noInline": true,
+      "scope": Object {
+        "Component": [Function],
+      },
+      "transformCode": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Styled(div)>
+              Live Preview
+            </Styled(div)>,
+            <Styled(div)
+              useDarkTheme={true}
+            >
+              Source Code
+              <FullscreenButton
+                onClick={[Function]}
+              />
+            </Styled(div)>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Live Preview",
+            },
+            "ref": null,
+            "rendered": "Live Preview",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                "Source Code",
+                <FullscreenButton
+                  onClick={[Function]}
+                />,
+              ],
+              "useDarkTheme": true,
+            },
+            "ref": null,
+            "rendered": Array [
+              "Source Code",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Styled(div)>
+              <Styled(Component)
+                previewBackgroundColor={undefined}
+              />
+              <Styled(LiveError) />
+            </Styled(div)>,
+            <Styled(div)>
+              <Styled(Component)
+                className="language-jsx builtin-prism-theme"
+                onChange={[Function]}
+                prismTheme={undefined}
+                syntaxStyles={undefined}
+              />
+            </Styled(div)>,
+          ],
+          "innerRef": [Function],
+          "onKeyDown": [Function],
+          "onKeyUp": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Styled(Component)
+                  previewBackgroundColor={undefined}
+                />,
+                <Styled(LiveError) />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "previewBackgroundColor": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Styled(Component)
+                className="language-jsx builtin-prism-theme"
+                onChange={[Function]}
+                prismTheme={undefined}
+                syntaxStyles={undefined}
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "className": "language-jsx builtin-prism-theme",
+                "onChange": [Function],
+                "prismTheme": undefined,
+                "syntaxStyles": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Styled(div)>
+            <Styled(div)>
+              Live Preview
+            </Styled(div)>
+            <Styled(div)
+              useDarkTheme={true}
+            >
+              Source Code
+              <FullscreenButton
+                onClick={[Function]}
+              />
+            </Styled(div)>
+          </Styled(div)>,
+          <Styled(div)
+            innerRef={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
+            <Styled(div)>
+              <Styled(Component)
+                previewBackgroundColor={undefined}
+              />
+              <Styled(LiveError) />
+            </Styled(div)>
+            <Styled(div)>
+              <Styled(Component)
+                className="language-jsx builtin-prism-theme"
+                onChange={[Function]}
+                prismTheme={undefined}
+                syntaxStyles={undefined}
+              />
+            </Styled(div)>
+          </Styled(div)>,
+        ],
+        "code": "/**
+ * Sample React Component
+ * Output domContainerNode is 'mountNode'
+ */
+
+const styles = {
+  heading: {
+    fontSize: \\"2.25rem\\",
+    fontWeight: \\"bold\\"
+  },
+  copy: {
+    fontSize: \\"1.5rem\\"
+  }
+}
+
+const HelloWorld = ({ name }) => (
+  <div>
+    <h1 style={styles.heading}>
+      Create Live Code Examples in {name}!
+    </h1>
+    <p style={styles.copy}>
+      Supports Light and Dark Syntax Themes
+    </p>
+  </div>
+)
+
+render(<HelloWorld name=\\"Spectacle\\" />)",
+        "mountStylesheet": false,
+        "noInline": true,
+        "scope": Object {
+          "Component": [Function],
+        },
+        "transformCode": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Styled(div)>
+                Live Preview
+              </Styled(div)>,
+              <Styled(div)
+                useDarkTheme={true}
+              >
+                Source Code
+                <FullscreenButton
+                  onClick={[Function]}
+                />
+              </Styled(div)>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Live Preview",
+              },
+              "ref": null,
+              "rendered": "Live Preview",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  "Source Code",
+                  <FullscreenButton
+                    onClick={[Function]}
+                  />,
+                ],
+                "useDarkTheme": true,
+              },
+              "ref": null,
+              "rendered": Array [
+                "Source Code",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Styled(div)>
+                <Styled(Component)
+                  previewBackgroundColor={undefined}
+                />
+                <Styled(LiveError) />
+              </Styled(div)>,
+              <Styled(div)>
+                <Styled(Component)
+                  className="language-jsx builtin-prism-theme"
+                  onChange={[Function]}
+                  prismTheme={undefined}
+                  syntaxStyles={undefined}
+                />
+              </Styled(div)>,
+            ],
+            "innerRef": [Function],
+            "onKeyDown": [Function],
+            "onKeyUp": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <Styled(Component)
+                    previewBackgroundColor={undefined}
+                  />,
+                  <Styled(LiveError) />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "previewBackgroundColor": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Styled(Component)
+                  className="language-jsx builtin-prism-theme"
+                  onChange={[Function]}
+                  prismTheme={undefined}
+                  syntaxStyles={undefined}
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "className": "language-jsx builtin-prism-theme",
+                  "onChange": [Function],
+                  "prismTheme": undefined,
+                  "syntaxStyles": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "attachTo": undefined,
+    "context": Object {
+      "store": Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [Function],
+      },
+      "styles": Object {
+        "colors": Object {},
+        "components": Object {
+          "heading": Object {
+            "h1": Object {},
+          },
+          "s": Object {},
+        },
+        "fonts": Object {},
+        "prism": Object {},
+      },
+    },
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Fill with props 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Styled(div) />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "className": "css-1rr4qq7 e153wlam0",
+    },
+    "ref": null,
+    "rendered": null,
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "className": "css-1rr4qq7 e153wlam0",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "attachTo": undefined,
+    "context": Object {
+      "store": Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [Function],
+      },
+      "styles": Object {
+        "colors": Object {},
+        "components": Object {
+          "heading": Object {
+            "h1": Object {},
+          },
+          "s": Object {},
+        },
+        "fonts": Object {},
+        "prism": Object {},
+      },
+    },
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Fit with props 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Styled(div) />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "className": "css-72fd9l e27tuvw0",
+    },
+    "ref": null,
+    "rendered": null,
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "className": "css-72fd9l e27tuvw0",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "attachTo": undefined,
+    "context": Object {
+      "store": Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [Function],
+      },
+      "styles": Object {
+        "colors": Object {},
+        "components": Object {
+          "heading": Object {
+            "h1": Object {},
+          },
+          "s": Object {},
+        },
+        "fonts": Object {},
+        "prism": Object {},
+      },
+    },
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Layout with props 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Layout />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": undefined,
+      "styles": undefined,
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": undefined,
+        "styles": undefined,
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "attachTo": undefined,
+    "context": Object {
+      "store": Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [Function],
+      },
+      "styles": Object {
+        "colors": Object {},
+        "components": Object {
+          "heading": Object {
+            "h1": Object {},
+          },
+          "s": Object {},
+        },
+        "fonts": Object {},
+        "prism": Object {},
+      },
+    },
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Notes with props 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Notes>
+    test
+  </Notes>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): false,
+  Symbol(enzyme.__nodes__): Array [
+    false,
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "attachTo": undefined,
+    "context": Object {
+      "store": Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [Function],
+      },
+      "styles": Object {
+        "colors": Object {},
+        "components": Object {
+          "heading": Object {
+            "h1": Object {},
+          },
+          "s": Object {},
+        },
+        "fonts": Object {},
+        "prism": Object {},
+      },
+    },
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`SlideSet with props 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SlideSet
+    hasSlideChildren={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": undefined,
+    },
+    "ref": null,
+    "rendered": null,
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": undefined,
+      },
+      "ref": null,
+      "rendered": null,
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "attachTo": undefined,
+    "context": Object {
+      "store": Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [Function],
+      },
+      "styles": Object {
+        "colors": Object {},
+        "components": Object {
+          "heading": Object {
+            "h1": Object {},
+          },
+          "s": Object {},
+        },
+        "fonts": Object {},
+        "prism": Object {},
+      },
+    },
+    "hydrateIn": undefined,
+  },
+}
+`;

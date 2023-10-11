@@ -1,0 +1,1 @@
+let create = s => MergeOperator.create(~maxBufferSize=0, ~maxConcurrency=1, s);

@@ -1,0 +1,44 @@
+{
+  "name": "bs-spectacle",
+  "version": "1.0.2",
+  "description": "Spectacle bindings for Bucklescript",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "preversion": "npm run build",
+    "pretest": "npm run build",
+    "test": "jest --coverage"
+  },
+  "license": "MIT",
+  "keywords": [
+    "spectacle",
+    "bucklescript",
+    "reason",
+    "reasonml"
+  ],
+  "author": "Piotrek Dubiel <piotr.dubiel@polidea.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/piotrdubiel/bs-spectacle.git"
+  },
+  "devDependencies": {
+    "bs-enzyme": "^0.4.0",
+    "bs-jest": "^0.3.2",
+    "bs-platform": "^4.0.5",
+    "bs-react-test-renderer": "^2.0.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest": "^22.4.2",
+    "reason-react": "^0.5.3",
+    "spectacle": "^4.0.4"
+  },
+  "peerDependencies": {
+    "spectacle": "^4.0.4",
+    "reason-react": "^0.5.3"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/helpers/"
+    ]
+  }
+}

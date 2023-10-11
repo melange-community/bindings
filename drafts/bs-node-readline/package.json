@@ -1,0 +1,33 @@
+{
+  "name": "bs-node-readline",
+  "description": "Node readline bindings for BuckleScript",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [
+    "bucklescript",
+    "readline",
+    "node",
+    "reasonml",
+    "ocaml"
+  ],
+  "author": {
+    "name": "Steven Scaffidi",
+    "email": "sscaff1@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sscaff1/bs-node-readline"
+  },
+  "homepage": "https://github.com/sscaff1/bs-node-readline",
+  "bugs": {
+    "url": "https://github.com/sscaff1/bs-node-readline/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^7.0.1"
+  }
+}

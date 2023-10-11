@@ -1,0 +1,6 @@
+{
+  "name": "bs-director",
+  "bsc-flags": ["-bs-super-errors"],
+  "sources": ["src"],
+  "refmt": 3
+}

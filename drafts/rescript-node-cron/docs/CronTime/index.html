@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>CronTime (rescript-cron.RescriptCron.RescriptCron.CronTime)</title>
+    <link rel="stylesheet" href="../odoc.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <script src="../highlight.pack.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+  </head>
+  <body>
+    <div class="content">
+      <header>
+        <nav><a href="../">RescriptCron</a> &#x00BB; CronTime</nav>
+        <h1>Module <code>RescriptCron.CronTime</code></h1>
+        <p>
+          Module for creating cron times that can be used to alter a cron job
+        </p>
+      </header>
+      <dl>
+        <dt class="spec type" id="type-t">
+          <a href="#type-t" class="anchor"></a
+          ><code><span class="keyword">type </span>t</code>
+        </dt>
+      </dl>
+      <dl>
+        <dt class="spec value" id="val-make">
+          <a href="#val-make" class="anchor"></a
+          ><code
+            ><span class="keyword">val </span>make : [ `CronString of
+            string<span class="keyword"> | </span>`JsDate of Js.Date.t ]
+            <span>&#45;&gt;</span> ?&#8288;timezone:string
+            <span>&#45;&gt;</span> ?&#8288;utcOffset:int
+            <span>&#45;&gt;</span> unit <span>&#45;&gt;</span>
+            <a href="#type-t">t</a></code
+          >
+        </dt>
+        <dd>
+          <p>
+            <code>make(cronTime, timezone, utcOffset)</code> will create a new
+            <code>CronTime</code>. This can be used with
+            <a href="..#val-setTime"><code>setTime</code></a> to change when a
+            <code>CronJob</code> is fired.
+          </p>
+          <p>
+            Do not use <code>timezone</code> and
+            <code>utcOffset</code> together.
+          </p>
+          <dl>
+            <dt>parameter cronTime</dt>
+            <dd>
+              <p>
+                The syntax of <code>cronTime</code> can be in cron format (e.g.
+                <code>2 * * * * * *</code>) or as a
+                <span
+                  class="xref-unresolved"
+                  title='unresolved reference to "Js.Date.t"'
+                  ><span
+                    class="xref-unresolved"
+                    title='unresolved reference to "Js.Date"'
+                    ><code>Js</code>.Date</span
+                  >.t</span
+                >.
+              </p>
+            </dd>
+          </dl>
+          <dl>
+            <dt>parameter timezone</dt>
+            <dd>
+              <p>
+                Which timezone should be used (e.g.
+                <code>&quot;America/Los_Angeles&quot;</code>).
+              </p>
+            </dd>
+          </dl>
+          <dl>
+            <dt>parameter utcOffset</dt>
+            <dd>
+              <p>
+                Set an UTC offset. This is for a Moment-object, so see
+                <a href="https://momentjs.com/docs/#/manipulating/utc-offset/"
+                  >Moment-documentation</a
+                >
+                for more info.
+              </p>
+            </dd>
+          </dl>
+        </dd>
+      </dl>
+    </div>
+  </body>
+</html>

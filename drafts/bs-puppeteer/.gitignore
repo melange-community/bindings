@@ -1,0 +1,15 @@
+.DS_Store
+node_modules/
+*~
+*.swp
+*.swo
+*.log*
+.vscode/
+.idea
+*.sublime*
+.merlin
+lib/
+.bsb.lock
+package-lock.json
+screenshot.png
+snap/

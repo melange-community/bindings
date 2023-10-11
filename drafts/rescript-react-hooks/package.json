@@ -1,0 +1,21 @@
+{
+  "name": "@glennsl/rescript-react-hooks",
+  "description": "Better hooks for rescript-react",
+  "version": "1.0.0",
+  "author": "Glenn Slotte <glenn@slotte.net>",
+  "license": "MPL-2.0",
+  "keywords": ["rescript", "rescript-react", "react", "hooks"],
+  "scripts": {
+    "build": "rescript build -with-deps",
+    "start": "rescript build -w -with-deps",
+    "clean": "rescript clean",
+    "fmt": "rescript format -all",
+    "test": "true"
+  },
+  "devDependencies": {
+    "rescript": "^9.1.4"
+  },
+  "dependencies": {
+    "@rescript/react": "^0.10.3"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "name": "@rescript-react-native/netinfo",
+  "description": "ReScript bindings for @react-native-community/netinfo.",
+  "version": "5.9.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@react-native-community/netinfo": "^5.9.0"
+  },
+  "repository": "https://github.com/rescript-react-native/netinfo.git",
+  "author": "sgny (https://github.com/sgny)",
+  "license": "MIT",
+  "keywords": [
+    "rescript",
+    "react-native"
+  ],
+  "files": [
+    "*.md",
+    "bsconfig.json",
+    "src/**/*.res",
+    "src/**/*.resi",
+    "src/**/*.js",
+    "!src/**/*.bs.js"
+  ],
+  "scripts": {
+    "format:most": "prettier --write \"**/*.{md,json,js,css}\"",
+    "format:re": "find . -name \"*.re\" -or -name \"*.rei\" | grep -v \"node_modules\" | xargs bsrefmt --in-place",
+    "format": "yarn format:most && yarn format:re",
+    "re:start": "bsb -make-world -w",
+    "re:build": "bsb -make-world",
+    "re:clean-build": "bsb -clean-world -make-world",
+    "start": "yarn re:start",
+    "build": "yarn re:build",
+    "test": "yarn re:clean-build",
+    "release": "npmpub"
+  },
+  "devDependencies": {
+    "bs-platform": "^9.0.0",
+    "husky": "^4.0.0",
+    "lint-staged": "^10.0.0",
+    "npm-run-all": "^3.0.0",
+    "npmpub": "^5.0.0",
+    "prettier": "^2.0.0"
+  },
+  "prettier": {
+    "trailingComma": "all"
+  },
+  "lint-staged": {
+    "*.{md,json,js,css}": [
+      "prettier --write"
+    ],
+    "*.{re,rei}": [
+      "bsrefmt --in-place"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}

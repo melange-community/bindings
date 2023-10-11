@@ -1,0 +1,31 @@
+{
+  "name": "bs-director",
+  "version": "0.0.6",
+  "description": "BuckleScript bindings to the Director router",
+  "main": "index.js",
+  "devDependencies": {
+    "bs-platform": "^2.0.0"
+  },
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "exit 0"
+  },
+  "keywords": [
+    "bucklescript",
+    "reason",
+    "ocaml"
+  ],
+  "homepage": "https://github.com/reasonml-community/bs-director#readme",
+  "bugs": "https://github.com/reasonml-community/bs-director/issues",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/reasonml-community/bs-director.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "director": "^1.2.8"
+  }
+}

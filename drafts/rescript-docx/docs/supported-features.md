@@ -1,0 +1,384 @@
+# List of supported features
+
+## API
+
+### Enums
+
+- [x] `AlignmentType`
+- [x] `BorderStyle`
+- [ ] `DocumentGridType`
+- [x] `DropCapType`
+- [x] `EmphasisMarkType`
+- [x] `FrameAnchorType`
+- [x] `FrameWrap`
+- [ ] `HeaderFooterReferenceType`
+- [ ] `HeaderFooterType`
+- [x] `HeadingLevel`
+- [x] `HeightRule`
+- [x] `HorizontalPositionAlign`
+- [ ] `HorizontalPositionRelativeFrom`
+- [ ] `HyperlinkType`
+- [x] `LeaderType`
+- [x] `LevelFormat`
+- [x] `LevelSuffix`
+- [ ] `LineNumberRestartFormat`
+- [x] `LineRuleType`
+- [ ] `NumberFormat`
+- [ ] `OverlapType`
+- [ ] `PageBorderDisplay`
+- [ ] `PageBorderOffsetFrom`
+- [ ] `PageBorderZOrder`
+- [ ] `PageNumber`
+- [ ] `PageNumberSeparator`
+- [ ] `PageOrientation`
+- [ ] `PageTextDirectionType`
+- [ ] `PatchType`
+- [ ] `PositionalTabAlignment`
+- [ ] `PositionalTabLeader`
+- [ ] `PositionalTabRelativeTo`
+- [ ] `PrettifyType`
+- [ ] `RelativeHorizontalPosition`
+- [ ] `RelativeVerticalPosition`
+- [ ] `SectionType`
+- [x] `ShadingType`
+- [ ] `SpaceType`
+- [x] `TabStopPosition`
+- [x] `TabStopType`
+- [ ] `TableAnchorType`
+- [ ] `TableLayoutType`
+- [ ] `TextDirection`
+- [x] `TextEffect`
+- [ ] `TextWrappingSide`
+- [ ] `TextWrappingType`
+- [x] `UnderlineType`
+- [ ] `VerticalAlign`
+- [ ] `VerticalMergeType`
+- [x] `VerticalPositionAlign`
+- [ ] `VerticalPositionRelativeFrom`
+- [ ] `WidthType`
+
+### Classes
+
+- [ ] `AbstractNumbering`
+- [ ] `Alignment`
+- [ ] `AlignmentAttributes`
+- [ ] `AnnotationReference`
+- [ ] `Attributes`
+- [ ] `BaseEmphasisMark`
+- [ ] `BaseXmlComponent`
+- [ ] `Body`
+- [ ] `Bookmark`
+- [ ] `BookmarkEnd`
+- [ ] `BookmarkStart`
+- [ ] `Border`
+- [ ] `BorderElement`
+- [ ] `BuilderElement`
+- [ ] `CarriageReturn`
+- [ ] `CheckBox`
+- [ ] `CheckBoxSymbolElement`
+- [ ] `CheckBoxUtil`
+- [ ] `Column`
+- [ ] `ColumnBreak`
+- [ ] `Columns`
+- [ ] `Comment`
+- [ ] `CommentRangeEnd`
+- [ ] `CommentRangeStart`
+- [ ] `CommentReference`
+- [ ] `Comments`
+- [ ] `ConcreteHyperlink`
+- [ ] `ConcreteNumbering`
+- [ ] `ContinuationSeparator`
+- [ ] `DayLong`
+- [ ] `DayShort`
+- [ ] `DeletedTextRun`
+- [ ] `DocGridAttributes`
+- [ ] `Document`
+- [ ] `DocumentAttributes`
+- [ ] `DocumentBackground`
+- [ ] `DocumentBackgroundAttributes`
+- [ ] `DocumentDefaults`
+- [ ] `DocumentGrid`
+- [ ] `DotEmphasisMark`
+- [ ] `Drawing`
+- [ ] `EmphasisMark`
+- [ ] `EmptyElement`
+- [ ] `EndnoteReference`
+- [ ] `ExternalHyperlink`
+- [ ] `FootNoteReferenceRunAttributes`
+- [ ] `FootNotes`
+- [x] `Footer`
+- [ ] `FootnoteReference`
+- [ ] `FootnoteReferenceElement`
+- [ ] `FootnoteReferenceRun`
+- [ ] `FrameProperties`
+- [ ] `FramePropertiesAttributes`
+- [ ] `GridSpan`
+- [x] `Header`
+- [ ] `HeaderFooterReference`
+- [ ] `HeaderWrapper`
+- [ ] `HorizontalPosition`
+- [ ] `HpsMeasureElement`
+- [ ] `IgnoreIfEmptyXmlComponent`
+- [ ] `ImageRun`
+- [ ] `ImportedRootElementAttributes`
+- [ ] `ImportedXmlComponent`
+- [ ] `Indent`
+- [ ] `InitializableXmlComponent`
+- [ ] `InsertedTextRun`
+- [ ] `InternalHyperlink`
+- [ ] `LastRenderedPageBreak`
+- [ ] `Level`
+- [ ] `LevelBase`
+- [ ] `LevelForOverride`
+- [ ] `LevelOverride`
+- [ ] `LineNumberType`
+- [ ] `Math`
+- [ ] `MathAccentCharacter`
+- [ ] `MathAngledBrackets`
+- [ ] `MathBase`
+- [ ] `MathCurlyBrackets`
+- [ ] `MathDegree`
+- [ ] `MathDenominator`
+- [ ] `MathFraction`
+- [ ] `MathFunction`
+- [ ] `MathFunctionName`
+- [ ] `MathFunctionProperties`
+- [ ] `MathIntegral`
+- [ ] `MathLimitLocation`
+- [ ] `MathNAryProperties`
+- [ ] `MathNumerator`
+- [ ] `MathPreSubSuperScript`
+- [ ] `MathPreSubSuperScriptProperties`
+- [ ] `MathRadical`
+- [ ] `MathRadicalProperties`
+- [ ] `MathRoundBrackets`
+- [ ] `MathRun`
+- [ ] `MathSquareBrackets`
+- [ ] `MathSubScript`
+- [ ] `MathSubScriptElement`
+- [ ] `MathSubScriptProperties`
+- [ ] `MathSubSuperScript`
+- [ ] `MathSubSuperScriptProperties`
+- [ ] `MathSum`
+- [ ] `MathSuperScript`
+- [ ] `MathSuperScriptElement`
+- [ ] `MathSuperScriptProperties`
+- [ ] `Media`
+- [ ] `MonthLong`
+- [ ] `MonthShort`
+- [ ] `NextAttributeComponent`
+- [ ] `NoBreakHyphen`
+- [ ] `NumberProperties`
+- [ ] `NumberValueElement`
+- [ ] `Numbering`
+- [ ] `OnOffElement`
+- [ ] `OutlineLevel`
+- [ ] `Packer`
+- [ ] `PageBorders`
+- [ ] `PageBreak`
+- [ ] `PageBreakBefore`
+- [ ] `PageMargin`
+- [ ] `PageNumberElement`
+- [ ] `PageNumberType`
+- [ ] `PageNumberTypeAttributes`
+- [ ] `PageReference`
+- [ ] `PageSize`
+- [ ] `PageTextDirection`
+- [x] `Paragraph`
+- [ ] `PositionalTab`
+- [ ] `Run`
+- [ ] `RunFonts`
+- [ ] `RunProperties`
+- [ ] `RunPropertiesChange`
+- [ ] `RunPropertiesDefaults`
+- [ ] `SectionProperties`
+- [ ] `SectionTypeAttributes`
+- [ ] `Separator`
+- [ ] `SequentialIdentifier`
+- [ ] `Shading`
+- [ ] `SimpleField`
+- [ ] `SimpleMailMergeField`
+- [ ] `SimplePos`
+- [ ] `SoftHyphen`
+- [ ] `Spacing`
+- [ ] `StringContainer`
+- [ ] `StringEnumValueElement`
+- [ ] `StringValueElement`
+- [ ] `Style`
+- [ ] `StyleForCharacter`
+- [ ] `StyleForParagraph`
+- [ ] `StyleLevel`
+- [ ] `Styles`
+- [ ] `SymbolRun`
+- [ ] `TDirection`
+- [ ] `Tab`
+- [ ] `TabAttributes`
+- [ ] `TabStop`
+- [ ] `TabStopItem`
+- [ ] `Table`
+- [ ] `TableBorders`
+- [ ] `TableCell`
+- [ ] `TableCellBorders`
+- [ ] `TableFloatProperties`
+- [ ] `TableLayout`
+- [ ] `TableOfContents`
+- [ ] `TableProperties`
+- [ ] `TableRow`
+- [ ] `TableRowHeight`
+- [ ] `TableRowHeightAttributes`
+- [ ] `TableRowProperties`
+- [ ] `TableWidthElement`
+- [ ] `TextRun`
+- [ ] `ThematicBreak`
+- [ ] `Type`
+- [ ] `Underline`
+- [ ] `VerticalAlignAttributes`
+- [ ] `VerticalAlignElement`
+- [ ] `VerticalMerge`
+- [ ] `VerticalPosition`
+- [ ] `WrapNone`
+- [ ] `WrapSquare`
+- [ ] `WrapTight`
+- [ ] `WrapTopAndBottom`
+- [ ] `XmlAttributeComponent`
+- [ ] `XmlComponent`
+- [ ] `YearLong`
+- [ ] `YearShort`
+
+### Interfaces
+
+- [x] `IAlignmentFrameOptions`
+- [x] `IBaseCharacterStyleOptions`
+- [x] `IBaseParagraphStyleOptions`
+- [x] `IBorderOptions`
+- [x] `IBordersOptions`
+- [x] `ICharacterStyleOptions`
+- [ ] `ICheckboxSymbolOptions`
+- [ ] `ICheckboxSymbolProperties`
+- [x] `ICommentOptions`
+- [x] `ICommentsOptions`
+- [ ] `IConcreteNumberingOptions`
+- [ ] `IContext`
+- [ ] `IDistance`
+- [ ] `IDocGridAttributesProperties`
+- [ ] `IDocumentAttributesProperties`
+- [ ] `IDocumentBackgroundOptions`
+- [x] `IDocumentDefaultsOptions`
+- [ ] `IDocumentFooter`
+- [ ] `IDocumentHeader`
+- [ ] `IDocumentOptions`
+- [ ] `IDrawingOptions`
+- [ ] `IFloating`
+- [x] `IFontAttributesProperties`
+- [ ] `IHeaderFooterGroup`
+- [ ] `IHeaderFooterOptions`
+- [ ] `IHeaderOptions`
+- [ ] `IHorizontalPositionOptions`
+- [ ] `IImageOptions`
+- [x] `IIndentAttributesProperties`
+- [x] `ILevelParagraphStylePropertiesOptions`
+- [x] `ILevelsOptions`
+- [ ] `ILineNumberAttributes`
+- [ ] `IMargins`
+- [ ] `IMathFractionOptions`
+- [ ] `IMathFunctionOptions`
+- [ ] `IMathIntegralOptions`
+- [ ] `IMathOptions`
+- [ ] `IMathPreSubSuperScriptOptions`
+- [ ] `IMathRadicalOptions`
+- [ ] `IMathSubScriptOptions`
+- [ ] `IMathSubSuperScriptOptions`
+- [ ] `IMathSumOptions`
+- [ ] `IMathSuperScriptOptions`
+- [ ] `IMediaData`
+- [ ] `IMediaDataTransformation`
+- [ ] `IMediaTransformation`
+- [x] `INumberingOptions`
+- [ ] `IPageBorderAttributes`
+- [ ] `IPageBordersOptions`
+- [ ] `IPageNumberTypeAttributes`
+- [x] `IParagraphOptions`
+- [x] `IParagraphPropertiesOptions`
+- [ ] `IParagraphStyleOptions`
+- [x] `IParagraphStylePropertiesOptions`
+- [ ] `IRunOptions`
+- [ ] `IRunPropertiesChangeOptions`
+- [ ] `IRunPropertiesOptions`
+- [x] `IRunStylePropertiesOptions`
+- [ ] `ISectionOptions`
+- [ ] `ISectionPropertiesOptions`
+- [x] `IShadingAttributesProperties`
+- [x] `ISpacingProperties`
+- [x] `IStylesOptions`
+- [ ] `ISymbolRunOptions`
+- [ ] `ITableBordersOptions`
+- [ ] `ITableCellBorders`
+- [ ] `ITableCellOptions`
+- [ ] `ITableOfContentsOptions`
+- [ ] `ITableOptions`
+- [ ] `ITablePropertiesOptions`
+- [ ] `ITableRowOptions`
+- [ ] `ITableRowPropertiesOptions`
+- [ ] `ITextWrapping`
+- [ ] `IVerticalPositionOptions`
+- [x] `IXYFrameOptions`
+- [ ] `IXmlAttribute`
+- [ ] `IXmlableObject`
+- [ ] `PatchDocumentOptions`
+- [ ] `PositionalTabOptions`
+- [x] `TabStopDefinition`
+
+### Types
+
+- [ ] `AttributeData`
+- [ ] `AttributeMap`
+- [ ] `AttributePayload`
+- [ ] `IColumnsAttributes`
+- [x] `IFrameOptions`
+- [ ] `IPageMarginAttributes`
+- [ ] `IPageSizeAttributes`
+- [ ] `IPatch`
+- [ ] `ITableFloatOptions`
+- [ ] `ITableWidthProperties`
+- [ ] `MathComponent`
+- [x] `ParagraphChild`
+- [ ] `Percentage`
+- [x] `PositiveUniversalMeasure`
+- [ ] `UniqueNumericIdCreator`
+- [x] `UniversalMeasure`
+
+### Variables
+
+- [ ] `EMPTY_OBJECT`
+- [ ] `sectionMarginDefaults`
+- [ ] `sectionPageSizeDefaults`
+
+### Functions
+
+- [ ] `abstractNumUniqueNumericIdGen`
+- [ ] `bookmarkUniqueNumericIdGen`
+- [ ] `concreteNumUniqueNumericIdGen`
+- [ ] `convertInchesToTwip`
+- [ ] `convertMillimetersToTwip`
+- [ ] `convertToXmlComponent`
+- [ ] `dateTimeValue`
+- [ ] `decimalNumber`
+- [ ] `docPropertiesUniqueNumericIdGen`
+- [ ] `eighthPointMeasureValue`
+- [ ] `hexColorValue`
+- [ ] `hpsMeasureValue`
+- [ ] `longHexNumber`
+- [ ] `measurementOrPercentValue`
+- [ ] `patchDocument`
+- [ ] `percentageValue`
+- [ ] `pointMeasureValue`
+- [ ] `positiveUniversalMeasureValue`
+- [ ] `shortHexNumber`
+- [ ] `signedHpsMeasureValue`
+- [ ] `signedTwipsMeasureValue`
+- [ ] `twipsMeasureValue`
+- [ ] `uCharHexNumber`
+- [ ] `uniqueId`
+- [ ] `uniqueNumericIdCreator`
+- [ ] `universalMeasureValue`
+- [ ] `unsignedDecimalNumber`

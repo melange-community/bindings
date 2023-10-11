@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w"
+  },
+  "devDependencies": {
+    "bs-platform": "^5.0.4",
+    "bsb-js": "^1.1.7"
+  },
+  "dependencies": {
+    "monaco-editor": "^0.17.1",
+    "reason-react": "^0.7.0",
+    "tailwindcss": "^1.0.4"
+  }
+}

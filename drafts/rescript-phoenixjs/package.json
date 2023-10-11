@@ -1,0 +1,25 @@
+{
+  "name": "rescript-phoenixjs",
+  "version": "1.6.6-alpha",
+  "scripts": {
+    "build": "rescript build",
+    "start": "rescript build -w",
+    "clean": "rescript "
+  },
+  "keywords": [
+    "rescript",
+    "phoenix"
+  ],
+  "author": "Ilya Kozlov <i.kozlov.dev@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "rescript": "^9.1.4"
+  },
+  "dependencies": {
+    "phoenix": "^1.6.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ilyakozlovdev/rescript-phoenixjs.git"
+  }
+}

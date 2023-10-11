@@ -1,0 +1,40 @@
+{
+  "name": "@jmagaram/rescript-seq",
+  "version": "3.0.1",
+  "module": "",
+  "description": "Lazy sequences for ReScript.",
+  "keywords": [
+    "rescript",
+    "sequences",
+    "iterables",
+    "Seq"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/TestSuite.bs.js",
+    "test:local": "NODE_ENV=development node tests/TestSuite.bs.js",
+    "test:watch": "nodemon --exec \"NODE_ENV=development node\" tests/TestSuite.bs.js",
+    "res:build": "rescript build -with-deps",
+    "res:dev": "rescript build -with-deps -w",
+    "res:clean": "rescript clean"
+  },
+  "author": "Justin Magaram",
+  "license": "ISC",
+  "dependencies": {
+    "rescript": "^10.1.4"
+  },
+  "files": [
+    "bsconfig.json",
+    "src/**/*.res",
+    "src/**/*.resi",
+    "src/**/*.gen.tsx"
+  ],
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "homepage": "https://github.com/jmagaram/rescript-seq#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmagaram/rescript-seq.git"
+  }
+}

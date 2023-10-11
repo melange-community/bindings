@@ -1,0 +1,55 @@
+{
+  "name": "reason-loadable",
+  "description": "Suspense/Lazy for ReasonReact",
+  "version": "1.0.0",
+  "author": "Robin Meillet <robin.meillet@epitech.eu>",
+  "license": "MIT",
+  "scripts": {
+    "make": "bsb -make-world",
+    "makew": "bsb -make-world -w",
+    "test": "jest",
+    "testw": "jest --watchAll",
+    "format": "./refmt.sh",
+    "clean": "bsb -clean-world"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@glennsl/bs-jest": "^0.5.1",
+    "@komponente/react-hello-world": "^0.0.1",
+    "babel-jest": "^26.0.1",
+    "babel-preset-react-app": "^9.1.2",
+    "bs-platform": "^7.3.2",
+    "bs-react-testing-library": "^0.7.2",
+    "jest": "^26.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "reason-react": ">=0.8.0"
+  },
+  "peerDependencies": {
+    "reason-react": ">=0.8.0"
+  },
+  "jest": {
+    "transformIgnorePatterns": [],
+    "testMatch": [
+      "**/__tests__/**/*_test.bs.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kMeillet/reason-loadable.git"
+  },
+  "keywords": [
+    "reason",
+    "reasonreact",
+    "dynamic",
+    "module",
+    "import",
+    "code-splitting",
+    "lazy-loading",
+    "chunksplit"
+  ],
+  "bugs": {
+    "url": "https://github.com/kMeillet/reason-loadable/issues"
+  },
+  "homepage": "https://github.com/kMeillet/reason-loadable#readme"
+}

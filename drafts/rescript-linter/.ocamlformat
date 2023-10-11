@@ -1,0 +1,6 @@
+profile = ocamlformat
+break-cases = fit
+margin = 110
+parse-docstrings = true
+wrap-comments = false
+line-endings = lf

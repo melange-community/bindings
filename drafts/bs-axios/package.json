@@ -1,0 +1,38 @@
+{
+  "name": "bs-axios",
+  "version": "0.0.43",
+  "description": "Axios bindings for Bucklescript",
+  "repository": "https://github.com/meafmira/bs-axios",
+  "author": "meafmira",
+  "license": "MIT",
+  "keywords": [
+    "axios",
+    "bucklescript",
+    "bsb",
+    "reason",
+    "reasonml",
+    "ocaml",
+    "bs-axios",
+    "bs-platform"
+  ],
+  "scripts": {
+    "build": "bsb -clean-world -make-world",
+    "watch": "bsb -clean-world -make-world -w",
+    "fmt": "prettier --write README.md",
+    "preversion": "npm run build",
+    "postversion": "npm publish"
+  },
+  "peerDependencies": {
+    "axios": ">= 0.21.1 <= 0.22.0",
+    "bs-platform": "^7.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/meafmira/bs-axios/issues"
+  },
+  "homepage": "https://github.com/meafmira/bs-axios#readme",
+  "devDependencies": {
+    "axios": ">= 0.21.1 <= 0.22.0",
+    "bs-platform": "^7.1.0",
+    "prettier": "^2.0.4"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "bs-prosemirror",
+  "version": "0.5.1",
+  "description": "Reason/Bucklescript bindings for ProseMirror",
+  "scripts": {
+    "build": "bsb -make-world",
+    "predev": "npm run build",
+    "dev": "parcel example/index.html",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [
+    "BuckleScript",
+    "ProseMirror"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wearegoat/bs-prosemirror.git"
+  },
+  "author": "Alexey Golev <alexey.golev@wearegoat.com",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^7.0.2-dev.1",
+    "bs-webapi": "^0.14.3",
+    "bsb-js": "^1.1.7",
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "prosemirror-changeset": "^2.1.2",
+    "prosemirror-commands": "^1.1.3",
+    "prosemirror-dropcursor": "^1.3.2",
+    "prosemirror-gapcursor": "^1.1.3",
+    "prosemirror-history": "^1.1.3",
+    "prosemirror-inputrules": "^1.0.4",
+    "prosemirror-keymap": "^1.1.3",
+    "prosemirror-model": "^1.9.1",
+    "prosemirror-schema-basic": "^1.1.2",
+    "prosemirror-schema-list": "^1.1.2",
+    "prosemirror-state": "^1.3.2",
+    "prosemirror-transform": "^1.2.3",
+    "prosemirror-view": "^1.14.6"
+  }
+}

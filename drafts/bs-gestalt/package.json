@@ -1,0 +1,32 @@
+{
+  "name": "bs-gestalt",
+  "description": "Reason bindings for Gestalt",
+  "version": "0.6.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [
+    "BuckleScript",
+    "Gestalt",
+    "ReasonReact",
+    "React"
+  ],
+  "author": "Lars Hisken <larshisken@protonmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/larshisken/bs-gestalt",
+  "repository": "git@github.com:larshisken/bs-gestalt.git",
+  "bugs": "https://github.com/larshisken/bs-gestalt/issues",
+  "devDependencies": {
+    "bs-platform": "^5.0.2",
+    "gestalt": "^0.99.0",
+    "reason-react": "^0.7.0"
+  },
+  "peerDependencies": {
+    "gestalt": "^0.98.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "reason-react": "^0.7.0"
+  }
+}

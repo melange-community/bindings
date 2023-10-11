@@ -1,0 +1,24 @@
+{
+  "name": "rescript-mapbox-gl",
+  "version": "0.0.1",
+  "description": "ReScript binding for mapbox-gl",
+  "keywords": [
+    "ReScript",
+    "mapbox-gl",
+    "mapbox"
+  ],
+  "repository": "git@github.com:ri7nz/rescript-mapbox-gl",
+  "author": "ri7nz <ri7nz@evilfactory.id>",
+  "license": "MIT",
+  "scripts": {
+    "watch": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world"
+  },
+  "devDependencies": {
+    "@rescript/react": "0.10.1",
+    "bs-platform": "9.0.2",
+    "bsdoc": "6.0.2-alpha",
+    "mapbox-gl": "2.2.0"
+  }
+}

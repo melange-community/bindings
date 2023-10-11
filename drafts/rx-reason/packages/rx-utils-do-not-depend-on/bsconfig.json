@@ -1,0 +1,28 @@
+{
+  "name": "@rx-reason/rx-utils-do-not-depend-on",
+  "package-specs": [
+    {
+      "module": "commonjs"
+    },
+    {
+      "module": "es6"
+    }
+  ],
+  "suffix": ".bs.js",
+  "bs-dependencies": [],
+  "bs-dev-dependencies": [],
+  "warnings": {
+    "error": "+101"
+  },
+  "refmt": 3,
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": [
+        {
+          "dir": "bs"
+        }
+      ]
+    }
+  ]
+}

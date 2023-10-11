@@ -1,0 +1,35 @@
+{
+  "name": "@rescriptbr/react-bootstrap",
+  "version": "0.0.2",
+  "description": "Rescript bindings for ReactBootstrap",
+  "main": "index.js",
+  "scripts": {
+    "res:watch": "rescript build -w",
+    "res:build": "rescript build",
+    "res:clean": "rescript clean",
+    "res:format": "rescript format -all"
+  },
+  "keywords": [
+    "react",
+    "rescript",
+    "rescript-bindings",
+    "rescript-react",
+    "bootstrap",
+    "ecosystem-react",
+    "react-component"
+  ],
+  "author": "Matheus de Souza Pessanha <matheus_pessanha2001@outloook.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rescriptbr/rescript-react-bootstrap"
+  },
+  "devDependencies": {
+    "rescript": "^9.1.4",
+    "@rescript/react": "^0.10.3"
+  },
+  "peerDependencies": {
+    "bootstrap": "5.1.0",
+    "react-bootstrap": "^2.0.0-beta.6"
+  }
+}

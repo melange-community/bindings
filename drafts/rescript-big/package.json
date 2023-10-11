@@ -1,0 +1,42 @@
+{
+  "name": "rescript-big",
+  "version": "4.0.0",
+  "description": "ReScript bindings for Big.js library",
+  "types": "lib/Big.gen.d.ts",
+  "main": "lib/Big.bs.js",
+  "scripts": {
+    "bundle": "rescript && tsc",
+    "dev": "rescript build -w",
+    "clean": "rescript clean -with-deps",
+    "test": "jest",
+    "prepublishOnly": "yarn clean && yarn bundle && yarn test && cp -r src/Big.bs.js lib/Big.bs.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winoteam/rescript-big.git"
+  },
+  "keywords": [
+    "big.js",
+    "decimals",
+    "ocaml",
+    "reasonml",
+    "bucklescript",
+    "rescript"
+  ],
+  "author": "Wino Technologies (@winoteam)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/winoteam/rescript-big/issues"
+  },
+  "homepage": "https://github.com/winoteam/rescript-big#readme",
+  "devDependencies": {
+    "@types/big.js": "6.1.2",
+    "gentype": "4.3.0",
+    "jest": "27.4.5",
+    "rescript": "9.1",
+    "typescript": "4.5.4"
+  },
+  "dependencies": {
+    "big.js": "6.1.1"
+  }
+}

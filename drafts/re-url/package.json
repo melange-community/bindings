@@ -1,0 +1,30 @@
+{
+    "name": "@bryanthomaschen/re-url",
+    "version": "0.1.0",
+    "description": "Bucklescript bindings for Javascript URL",
+    "homepage": "https://github.com/bryanthomaschen/re-url",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/bryanthomaschen/re-url.git"
+    },
+    "bugs": {
+      "url": "https://github.com/bryanthomaschen/re-url/issues"
+    },
+    "author": "Bryan Chen",
+    "license": "MIT",
+    "keywords": [
+      "url",
+      "binding",
+      "urlsearchparams",
+      "bucklescript",
+      "reason"
+    ],
+    "devDependencies": {
+      "bs-platform": "^4.0.3"
+    },
+    "scripts": {
+      "build": "bsb -make-world",
+      "watch": "bsb -make-world -w",
+      "clean": "bsb -clean-world"
+    }
+  }

@@ -1,0 +1,7 @@
+/.merlin
+/lib/bs/
+/lib/ocaml/
+/**/*.bs.js
+/.cache
+/dist/
+/.bsb.lock

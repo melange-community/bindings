@@ -1,0 +1,22 @@
+{
+  "name": "rescript-audio",
+  "description": "ReScript bindings for working with the Web Audio API.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Bernardo Gurgel <brnrdog@hey.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "rescript build -w",
+    "demo": "http-server",
+    "build": "esbuild lib/es6/src/Demo.bs.js --bundle --outfile=./demo/bundle.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.12.8",
+    "http-server": "^0.12.3",
+    "prettier": "^2.3.1",
+    "rescript": "^9.1.3"
+  },
+  "dependencies": {
+    "@ryyppy/rescript-promise": "^2.1.0"
+  }
+}

@@ -1,0 +1,230 @@
+
+-- Root path--
+{"success":true}
+status: 200
+
+-- Invalid path--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /invalid-path</pre>
+</body>
+</html>
+status: 404
+
+-- Static middleware--
+This is the content of test.data a static file
+status: 200
+
+-- POST + Query param (valid)--
+{"success":true}
+status: 200
+
+-- POST + Query param (invalid)--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /999/id</pre>
+</body>
+</html>
+status: 404
+
+-- PUT + Query param (valid)--
+{"success":true}
+status: 200
+
+-- PUT + Query param (invalid)--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot PUT /999/id</pre>
+</body>
+</html>
+status: 404
+
+-- PUT + Query param (valid)--
+{"success":true}
+status: 200
+
+-- PUT + Query param (invalid)--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot PATCH /999/id</pre>
+</body>
+</html>
+status: 404
+
+-- DELETE + Query param (valid)--
+{"success":true}
+status: 200
+
+-- DELETE + Query param (invalid)--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot DELETE /999/id</pre>
+</body>
+</html>
+status: 404
+
+-- baseUrl property--
+{"success":true}
+status: 200
+
+-- hostname property--
+{"success":true}
+status: 200
+
+-- method property--
+{"success":true}
+status: 200
+
+-- method originalUrl--
+{"success":true}
+status: 200
+
+-- method path--
+{"success":true}
+status: 200
+
+-- method path--
+{"success":true}
+status: 200
+
+-- Query parameters--
+{"success":true}
+status: 200
+
+-- Fresh--
+{"success":true}
+status: 200
+
+-- Stale--
+{"success":true}
+status: 200
+
+-- Secure--
+{"success":true}
+status: 200
+
+-- XHR--
+{"success":true}
+status: 200
+
+-- Redirect--
+Found. Redirecting to /redir/target
+status: 302
+
+-- Redirect with Code--
+Moved Permanently. Redirecting to /redir/target
+status: 301
+
+-- Non 200 Http status--
+Not Found
+status: 404
+
+-- Non 200 Http status--
+{"success":true}
+status: 500
+
+-- Promise Middleware--
+status: 204
+
+-- Failing Promise Middleware--
+Caught Failing Promise
+status: 500
+
+-- Can catch Ocaml Exception--
+Elvis has left the building!
+status: 402
+
+-- Can use express router--
+Created
+status: 201
+
+-- Can specify that a router behaves in a case sensitive manner--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /router-options/case-sensitive</pre>
+</body>
+</html>
+status: 404
+
+-- Can specify that a router behaves in a case sensitive manner--
+OK
+status: 200
+
+-- Can specify that a router behaves in a strict manner--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /router-options/strict</pre>
+</body>
+</html>
+status: 404
+
+-- Can specify that a router behaves in a strict manner--
+OK
+status: 200
+
+-- Can bind middleware to a particular param--
+Created
+status: 201
+
+-- Can set cookies--
+OK
+status: 200# Netscape HTTP Cookie File
+localhost	FALSE	/	FALSE	0	test-cookie	cool-cookie
+
+-- Can clear cookies--
+Set-Cookie: test-cookie2=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+
+-- Can accept JSON using builtin middleware--
+{"number":8}
+status: 200
+-- Can accept UrlEncoded body using builtin middleware--
+{"number":8}
+status: 200
+-- Accepts--
+{"success":true}
+-- Accepts Charsets--
+{"success":true}
+-- Get--
+{"success":true}
+-- Can parse text using bodyparser middleware--
+This is a test body
+-- Can set response header via setHeader--
+X-Test-Header: Set
+
+-- Can the user user the javascipt http object directly--
+The server has been called 44 times.
