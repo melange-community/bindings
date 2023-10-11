@@ -52,15 +52,15 @@ In this case, you could have:
 
 ### 5) The cost of the binding (runtime overhead vs zero-cost)
 
-zero-cost bindings means to not have any runtime overhead. This is often preferred, but there are also cases where a small overhead is acceptable. For example, if you want to provide a more idiomatic API to Reason, you can have a small overhead by using a library.
+zero-cost bindings means to not have any runtime overhead. This is often preferred, but there are also cases where a small overhead is acceptable and beneficial to expose a nicer API. For example, if you want to provide a more idiomatic API to Reason, you can have a small overhead by adding "runtime" cost.
 
-This is a source of dicussion on other communities and we don't have a strong opinion on this. We think that both approaches are valid and we should have both approaches in the bindings repo.
+This is a source of dicussion on other communities and prefer to not have a strong opinion on this. We think that both approaches are valid and should have space in the bindings repo.
 
 In case of having the duality, it's a good idea to expose both approaches in the same package. For example:
 
 ```bash
-/packeges/lodash_zero
-/packeges/lodash_safe
+/packeges/lodash_raw # zero-cost bindings and behaves like JS
+/packeges/lodash_safe # idiomaic bindings and contains some runtime overhead
 ```
 
 Read the full https://melange.re/v2.0.0/communicate-with-javascript
