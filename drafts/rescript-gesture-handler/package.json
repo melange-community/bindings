@@ -1,0 +1,44 @@
+{
+  "name": "rescript-gesture-handler",
+  "description": "ReScript bindings for react-native-gesture-handler",
+  "version": "2.2.2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reck753/rescript-gesture-handler.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "rescript",
+    "react-native",
+    "react-native-gesture-handler"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "format:most": "prettier --write \"**/*.{md,json,js,css}\"",
+    "format:res": "rescript format -all",
+    "format:all": "yarn format:most && yarn format:res",
+    "clean": "rescript clean",
+    "build": "rescript clean && rescript build -with-deps",
+    "watch": "rescript clean && rescript build -with-deps -w"
+  },
+  "peerDependencies": {
+    "@rescript/react": "^0.10.3",
+    "react-native-gesture-handler": "~2.2.0",
+    "rescript-react-native": "^0.64.3 || ^0.65.0 || ^0.66.0"
+  },
+  "devDependencies": {
+    "@rescript/react": "^0.10.3",
+    "rescript-react-native": "^0.64.3 || ^0.65.0 || ^0.66.0",
+    "rescript": "^9.1.4",
+    "prettier": "^2.5.1"
+  },
+  "prettier": {
+    "trailingComma": "all"
+  },
+  "bugs": {
+    "url": "https://github.com/reck753/rescript-gesture-handler/issues"
+  },
+  "homepage": "https://github.com/reck753/rescript-gesture-handler#readme"
+}

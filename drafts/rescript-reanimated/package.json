@@ -1,0 +1,44 @@
+{
+  "name": "rescript-reanimated",
+  "description": "ReScript bindings for react-native-reanimated v2",
+  "version": "2.3.11",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reck753/rescript-reanimated.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "rescript",
+    "react-native",
+    "react-native-reanimated"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "format:most": "prettier --write \"**/*.{md,json,js,css}\"",
+    "format:res": "rescript format -all",
+    "format:all": "yarn format:most && yarn format:res",
+    "clean": "rescript clean",
+    "build": "rescript clean && rescript build -with-deps",
+    "watch": "rescript clean && rescript build -with-deps -w"
+  },
+  "peerDependencies": {
+    "@rescript/react": "^0.10.3",
+    "react-native-reanimated": "~2.3.1",
+    "rescript-react-native": "^0.64.3 || ^0.65.0 || ^0.66.0 || ^0.70"
+  },
+  "devDependencies": {
+    "@rescript/react": "^0.10.3",
+    "prettier": "^2.5.1",
+    "rescript": "^10.0.1",
+    "rescript-react-native": "^0.64.3 || ^0.65.0 || ^0.66.0 || ^0.70"
+  },
+  "prettier": {
+    "trailingComma": "all"
+  },
+  "bugs": {
+    "url": "https://github.com/reck753/rescript-reanimated/issues"
+  },
+  "homepage": "https://github.com/reck753/rescript-reanimated#readme"
+}
